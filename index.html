@@ -22,19 +22,44 @@
 <h3>What is Raft?</h3>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget velit
-tincidunt, eleifend leo eget, suscipit purus. Mauris ac eleifend odio, ut
-vulputate enim. Pellentesque et purus id orci commodo porta non sed mauris.
-Donec aliquet vel ipsum et gravida. Quisque molestie malesuada ornare. Etiam
-egestas orci id ligula sodales dapibus. Quisque eleifend sem ante. Donec sit
-amet neque condimentum, mattis nisi nec, euismod felis. Aenean blandit, nibh in
-ullamcorper fermentum, est metus egestas libero, eget blandit urna metus non
-ligula. Curabitur congue tortor in bibendum molestie. Etiam gravida lectus
-felis, non blandit est hendrerit at. Maecenas vitae diam sem. Mauris quis
-pharetra lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class
-aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-himenaeos. Sed tellus neque, interdum ut bibendum a, vestibulum a magna.
+Raft is a consensus algorithm that is designed to be easy to understand. It's
+equivalent to Paxos in fault-tolerance and performance. The difference is that
+it's decomposed into relatively independent subproblems, and it cleanly
+addresses all major pieces needed for practical systems. We hope Raft will make
+consensus available to a wider audience, and that this wider audience will be
+able to develop a variety of higher quality consensus-based systems than are
+available today.
 </p>
+
+
+<h3>Hold on&mdash;what is consensus?</h3>
+
+<p>
+Consensus is a fundamental problem in fault-tolerant distributed systems.
+Consensus involves multiple servers agreeing on values. Once they reach a
+decision on a value, that decision is final. Typical consensus algorithms make
+progress when any majority of their servers are available; for example, a
+cluster of 5 servers can continue to operate even if 2 servers fail.
+If more servers fail, they stop making progress (but will never return an
+incorrect result).
+</p>
+
+<p>
+Consensus typically arises in the context of replicated state machines, a
+general approach to building fault-tolerant systems. Each server has a state
+machine and a log. The state machine is the component that we want to make
+fault-tolerant, such as a hash table. It will appear to clients that they are
+interacting with a single, reliable state machine, even if a minority of the
+servers in the cluster fail. Each state machine takes as input commands from
+its log. In our hash table example, the log would include commands like <em>set
+x to 3</em>. A consensus algorithm is used to agree on the commands in the
+servers' logs. The consensus algorithm must ensure that if any state machine
+applies <em>set x to 3</em> as the <em>n</em><sup>th</sup> command, no other
+state machine will ever apply a different <em>n</em><sup>th</sup> command. As a
+result, each state machine processes the same series of commands and thus
+produces the same series of results and arrives at the same series of states.
+</p>
+
 
 <h3>Where can I learn more?</h3>
 
