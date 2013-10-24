@@ -1,72 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Raftconsensus.github.io : web site at http://raftconsensus.github.io" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Raftconsensus.github.io</title>
+    <title>Raft Consensus Algorithm</title>
   </head>
 
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/raftconsensus">View on GitHub</a>
-
-          <h1 id="project_title">Raftconsensus.github.io</h1>
-          <h2 id="project_tagline">web site at http://raftconsensus.github.io</h2>
-
-        </header>
+    <div class="container page-header">
+          <h1>The Raft Consensus Algorithm</h1>
     </div>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <div class="container">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<h3>What is Raft?</h3>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget velit
+tincidunt, eleifend leo eget, suscipit purus. Mauris ac eleifend odio, ut
+vulputate enim. Pellentesque et purus id orci commodo porta non sed mauris.
+Donec aliquet vel ipsum et gravida. Quisque molestie malesuada ornare. Etiam
+egestas orci id ligula sodales dapibus. Quisque eleifend sem ante. Donec sit
+amet neque condimentum, mattis nisi nec, euismod felis. Aenean blandit, nibh in
+ullamcorper fermentum, est metus egestas libero, eget blandit urna metus non
+ligula. Curabitur congue tortor in bibendum molestie. Etiam gravida lectus
+felis, non blandit est hendrerit at. Maecenas vitae diam sem. Mauris quis
+pharetra lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Sed tellus neque, interdum ut bibendum a, vestibulum a magna.
+</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h3>Where can I learn more?</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>
+The paper describes Raft in detail:
+<a href="http://ramcloud.stanford.edu/raft.pdf">In Search of an Understandable Consensus Algorithm (PDF)</a>
+by <a href="https://twitter.com/ongardie">Diego Ongaro</a> and
+<a href="http://www.stanford.edu/~ouster/">John Ousterhout</a>.
+</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p>
+These talks also serve as good introductions to Raft:
+</p>
+<!-- Please keep the following list in reverse chronological order. -->
+<ul class="list-group">
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+  <li class="list-group-item">
+    Talk on Raft at <a href="http://rubyconf.org/program#patrick-van-stee">Rubyconf 2013</a>
+    by <a href="https://twitter.com/vanstee">Patrick Van Stee</a>, November 2013:
+    <table class="table-condensed">
+      <tr>
+        <td>Coming soon...</td>
+      </tr>
+    </table>
+  </li>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+  <li class="list-group-item">
+    Talk on Raft at <a href="http://ricon.io/west.html">RICON West 2013</a>
+    by <a href="https://twitter.com/ongardie">Diego Ongaro</a>, October 2013:
+    <table class="table-condensed">
+      <tr>
+        <td>Coming soon...</td>
+      </tr>
+    </table>
+  </li>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+  <li class="list-group-item">
+    Talk on Raft at <a href="https://thestrangeloop.com/sessions/raft-the-understandable-distributed-protocol">Strange Loop 2013</a>
+    by <a href="https://twitter.com/benbjohnson">Ben Johnson</a>, September 2013:
+    <table class="table-condensed">
+      <tr>
+        <td>Slides</td>
+        <td><a href="https://speakerdeck.com/benbjohnson/raft-the-understandable-distributed-consensus-protocol">Speaker Deck</a></td>
+      </tr>
+    </table>
+  </li>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+  <li class="list-group-item">
+    Talk on Raft and <a href="https://github.com/andrewjstone/rafter">Rafter</a>
+    at the <a href="http://www.meetup.com/Erlang-NYC/events/131394712/">Erlang NYC Meetup</a>
+    by <a href="https://twitter.com/tsantero">Tom Santero</a> and
+    <a href="https://twitter.com/andrew_j_stone">Andrew Stone</a>, August 2013:
+    <table class="table-condensed">
+      <tr>
+        <td>Video</td>
+        <td><a href="http://vimeo.com/71635670">Vimeo</a></td>
+      </tr>
+      <tr>
+        <td>Slides</td>
+        <td><a href="https://speakerdeck.com/tsantero/consensus-raft-and-rafter">Speaker Deck</a></td>
+      </tr>
+    </table>
+  </li>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+  <li class="list-group-item">
+    Talk on Raft (venue unknown)
+    by <a href="https://twitter.com/vanstee">Patrick Van Stee</a>, July 2013:
+    <table class="table-condensed">
+      <tr>
+        <td>Slides</td>
+        <td><a href="https://speakerdeck.com/vanstee/consensus-an-introduction-to-raft">Speaker Deck</a></td>
+      </tr>
+    </table>
+  </li>
+
+  <li class="list-group-item">
+    Lecture for the <a href="https://ramcloud.stanford.edu/~ongaro/userstudy/">Raft User Study</a>
+    by <a href="http://www.stanford.edu/~ouster/">John Ousterhout</a>, March 2013:
+    <table class="table-condensed">
+      <tr>
+        <td>Video (screencast)</td>
+        <td>
+          <a href="http://youtu.be/YbZ3zDzDnrw">YouTube</a>
+          <a href="http://raftuserstudy.s3-website-us-west-1.amazonaws.com/raft.mp4">MP4</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Slides</td>
+        <td>
+          <a href="https://ramcloud.stanford.edu/~ongaro/userstudy/raft.pdf">PDF</a>
+          <a href="https://ramcloud.stanford.edu/~ongaro/userstudy/raft.pptx">PPTX</a>
+        </td>
+      </tr>
+    </table>
+  </li>
+
+</ul>
+
+
+<h3>Where can I get Raft?</h3>
+
+<p>Vestibulum congue convallis lacus, nec sollicitudin tellus porttitor semper.
+In porta tempor odio aliquet dapibus. Morbi eleifend nisl sit amet quam
+placerat, nec adipiscing mi posuere. Cras non egestas nibh, at elementum massa.
+Integer accumsan nisi et tempor pharetra. Pellentesque sit amet sollicitudin
+tellus, lobortis cursus nisi. Phasellus eu imperdiet augue. Aenean eget
+sollicitudin purus. Vestibulum eget blandit libero. Sed pellentesque, nibh
+tincidunt blandit iaculis, erat lectus placerat dui, mollis sagittis orci orci
+quis nulla. Integer nisl diam, pharetra et fringilla quis, dignissim a odio.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Maecenas condimentum varius hendrerit. Aenean eu commodo metus.
+Phasellus posuere nunc a ante ultrices molestie. Proin non faucibus mauris.</p>
+
+
+    </div> <!-- end main div -->
+
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="container footer">
+      <hr />
+      <p>Published with <a href="http://pages.github.com">GitHub Pages</a>.
+      <a href="https://github.com/raftconsensus/raftconsensus.github.io">View on GitHub</a>.</p>
     </div>
-
-    
 
   </body>
 </html>
