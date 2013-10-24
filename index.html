@@ -136,17 +136,316 @@ These talks also serve as good introductions to Raft:
 
 <h3>Where can I get Raft?</h3>
 
-<p>Vestibulum congue convallis lacus, nec sollicitudin tellus porttitor semper.
-In porta tempor odio aliquet dapibus. Morbi eleifend nisl sit amet quam
-placerat, nec adipiscing mi posuere. Cras non egestas nibh, at elementum massa.
-Integer accumsan nisi et tempor pharetra. Pellentesque sit amet sollicitudin
-tellus, lobortis cursus nisi. Phasellus eu imperdiet augue. Aenean eget
-sollicitudin purus. Vestibulum eget blandit libero. Sed pellentesque, nibh
-tincidunt blandit iaculis, erat lectus placerat dui, mollis sagittis orci orci
-quis nulla. Integer nisl diam, pharetra et fringilla quis, dignissim a odio.
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus. Maecenas condimentum varius hendrerit. Aenean eu commodo metus.
-Phasellus posuere nunc a ante ultrices molestie. Proin non faucibus mauris.</p>
+<p>
+There are many implementations of Raft available in various stages of
+development. This table lists the implementations we know about with source
+code available. It's sorted by language, then project name. This information
+will inevitably get out of date; please send us a bug report or pull request to
+update it.
+</p>
+
+<table class="table table-striped table-hover"><tbody>
+<tr>
+  <th>Name</th>
+  <th>Primary Authors</th>
+  <th>Language</th>
+  <th>License</th>
+  <th>Leader Election + Log Replication?</th>
+  <th>Membership Changes?</th>
+  <th>Log Compaction?</th>
+  <th>Row Last Updated</th>
+</tr>
+<tr>
+  <td><a href="https://github.com/bspolley/raft">bspolley/raft</a></td>
+  <td>Alex Kaiser, Brennan Polley, Helen Weng (Berkeley)</td>
+  <td>Bloom</td>
+  <td></td>
+  <td>Some</td>
+  <td></td>
+  <td></td>
+  <td>2013-05-18</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/noeleo/raft">noeleo/raft</a></td>
+  <td>Noel Moldvai, Rohit Turumella, Josh Muhlfelder, James Butkovic (Berkeley)</td>
+  <td>Bloom</td>
+  <td>Simplified BSD</td>
+  <td>Lacking persistence</td>
+  <td>No</td>
+  <td>No</td>
+  <td>2013-05-25</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/amidvidy/whitewater">whitewater</a></td>
+  <td><a href="https://twitter.com/amidvidy">Adam Midvidy</a>, Anh Mai, Karoun Kasraie, Sanketh Katta (Berkeley)</td>
+  <td>Bloom</td>
+  <td>MIT</td>
+  <td>Some correctness issues</td>
+  <td>No</td>
+  <td>No</td>
+  <td>2013-05-18</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/PremotionSoftwareSolutions/NRaft">NRaft</a></td>
+  <td>Bert Willems (Premotion)</td>
+  <td>C#</td>
+  <td>MIT</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/dupdob/RAFTiNG">RAFTiNG</a></td>
+  <td>Cyrille Dupuydauby</td>
+  <td>C#</td>
+  <td>Apache2</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/logcabin/logcabin">LogCabin</a></td>
+  <td><a href="https://twitter.com/ongardie">Diego Ongaro</a> (Stanford)</td>
+  <td>C++</td>
+  <td>ISC</td>
+  <td>Yes</td>
+  <td>Yes</td>
+  <td>Yes</td>
+  <td>2013-10-23</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/saebyn/raft">raft-clj</a></td>
+  <td>John Weaver</td>
+  <td>Clojure</td>
+  <td>Eclipse</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-06-20</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/vanstee/draft">draft</a></td>
+  <td><a href="https://twitter.com/vanstee">Patrick Van Stee</a></td>
+  <td>Elixir</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-06-20</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/djui/eraft">eraft</a></td>
+  <td><a href="https://twitter.com/uwe_">Uwe Dauernheim</a></td>
+  <td>Erlang</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-05-18</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/cannedprimates/huckleberry">huckleberry</a></td>
+  <td><a href="https://twitter.com/cannedprimates">Jakob Sievers</a></td>
+  <td>Erlang</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-05-18</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/andrewjstone/rafter">rafter</a></td>
+  <td><a href="https://twitter.com/andrew_j_stone">Andrew Stone</a> (Basho)</td>
+  <td>Erlang</td>
+  <td>Apache2</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-05-31</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/ericmoritz/rafterl">rafterl</a></td>
+  <td><a href="https://twitter.com/ericmoritz">Eric Moritz</a></td>
+  <td>Erlang</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-05-25</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/haf/Flotten">Flotten</a></td>
+  <td><a href="https://twitter.com/henrikfeldt">Henrik Feldt</a> (Jayway)</td>
+  <td>F#</td>
+  <td>MIT</td>
+  <td>Some</td>
+  <td>No</td>
+  <td>No</td>
+  <td>2013-05-18</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apokalyptik/raft">apokalyptik/raft</a></td>
+  <td><a href="https://twitter.com/apokzen">Demitrious Kelly</a></td>
+  <td>Go</td>
+  <td>GPL3</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/dev-urandom/graft">graft</a></td>
+  <td><a href="https://twitter.com/benemills">Ben Mills</a> (Braintree)</td>
+  <td>Go</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/goraft/raft">go-raft</a></td>
+  <td><a href="https://twitter.com/benbjohnson">Ben Johnson </a>(Sky database)</td>
+  <td>Go</td>
+  <td>MIT</td>
+  <td>Yes</td>
+  <td>Partial?</td>
+  <td>Yes</td>
+  <td>2013-07-05</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/peterbourgon/raft">peterbourgon/raft</a></td>
+  <td><a href="https://twitter.com/peterbourgon">Peter Bourgon</a> (SoundCloud)</td>
+  <td>Go</td>
+  <td>Simplified BSD</td>
+  <td>Yes</td>
+  <td>Yes</td>
+  <td>No</td>
+  <td>2013-07-05</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/mreiferson/pontoon">pontoon</a></td>
+  <td><a href="https://twitter.com/imsnakes">Matt Reiferson</a></td>
+  <td>Go</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/lionelbarrow/seaturtles">seaturtles</a></td>
+  <td><a href="https://twitter.com/LionelBarrow">Lionel Barrow</a> (Braintree)</td>
+  <td>Go</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/NicolasT/kontiki">kontiki</a></td>
+  <td><a href="https://twitter.com/eikke">Nicolas Trangez</a></td>
+  <td>Haskell</td>
+  <td>BSD</td>
+  <td>Some</td>
+  <td>No</td>
+  <td>No</td>
+  <td>2013-10-21</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/mgodave/raft">mgodave/raft</a></td>
+  <td><a href="https://twitter.com/davidjrusek">Dave Rusek</a></td>
+  <td>Java</td>
+  <td></td>
+  <td>Some</td>
+  <td></td>
+  <td></td>
+  <td>2013-06-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/tkellogg/Raft-JVM">Raft-JVM</a></td>
+  <td><a href="https://twitter.com/kellogh">Tim Kellogg</a> (Alteryx)</td>
+  <td>Java</td>
+  <td></td>
+  <td>No</td>
+  <td>No</td>
+  <td>No</td>
+  <td>2013-09-04</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/benbjohnson/raft.js">benbjohnson/raft.js</a></td>
+  <td><a href="https://twitter.com/benbjohnson">Ben Johnson </a>(Sky database)</td>
+  <td>Javascript</td>
+  <td>MIT</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/kanaka/raft.js">kanaka/raft.js</a></td>
+  <td><a href="https://twitter.com/bus_kanaka">Joel Martin</a></td>
+  <td>Javascript</td>
+  <td>MPL-2.0</td>
+  <td>Yes</td>
+  <td>Yes</td>
+  <td>No</td>
+  <td>2013-09-16</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/heidi-ann/ocaml-raft">ocaml-raft</a></td>
+  <td><a href="https://twitter.com/heidiann360">Heidi Howard</a> (Cambridge)</td>
+  <td>OCaml</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/kurin/py-raft">py-raft</a></td>
+  <td>Toby Burress</td>
+  <td>Python</td>
+  <td>public domain</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/celluloid/floss">floss</a></td>
+  <td><a href="https://twitter.com/aflatter">Alexander Flatter</a></td>
+  <td>Ruby</td>
+  <td>MIT</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-06-20</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/harryw/raft">harryw/raft</a></td>
+  <td><a href="https://twitter.com/harwilk">Harry Wilkinson</a></td>
+  <td>Ruby</td>
+  <td>MIT</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-06-20</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/evanphx/zodiac-prime">zodiac-prime</a></td>
+  <td><a href="https://twitter.com/evanphx">Evan Phoenix</a> (LivingSocial)</td>
+  <td>Ruby</td>
+  <td>MIT</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2013-09-02</td>
+</tr>
+</tbody></table>
 
 
     </div> <!-- end main div -->
