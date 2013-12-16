@@ -110,7 +110,49 @@ More quotes go here:
  - Use <strong> for emphasis.
 -->
 
-        <div class="item">
+<div class="item">
+<blockquote>
+
+<p>
+<strong>At 15below we use Raft as an central component in a distributed micro
+service hosting and management platform.</strong> Micro services form an
+essential part of our future architectural strategy and this 'platform' is our
+approach for managing large numbers of small business services.
+</p>
+
+<p>
+<strong>Raft's primary use is for distributing the cluster deployment state and
+designating the cluster leader.</strong> The 'strong leader' properties of Raft
+was one of our primary reasons for choosing it as it aligned nicely with our
+requirement for allowing the hosting platform to make autonomous deployment
+decisions.
+</p>
+
+<p>
+We decided to create <strong>our own implementation of Raft</strong> as on the
+.NET stack there were no mature options at the time. It is <strong>implemented
+in the F# language</strong> and is pretty close to what is described in the
+Raft paper. Log replication, leader elections, cluster configurations changes
+and log persistence are all fully implemented. The only thing missing currently
+is log compaction but that is in the works. One notable difference is that we
+chose to use asynchronous messaging instead of RPC which meant we had to make a
+few smaller amendments to get the same behaviour as described in the paper.
+</p>
+
+<p>
+It isn't open source yet but 15below has a good history of supporting open
+source and we are confident that at least the Raft implementation will be made
+open source in the near future once it has been proven in production.
+</p>
+<small>
+  <a href="https://twitter.com/kjnilsson">Karl Nilsson</a>,
+  <a href="http://15below.com">15below</a>
+</small>
+<!-- Personal communications with Diego Ongaro, 2013. -->
+</blockquote>
+</div>
+
+<div class="item">
 <blockquote>
 <p>
 We built a core piece of CoreOS, a service discovery and locking service called
@@ -133,7 +175,7 @@ to be a feature complete implementation.
 </small>
 <!-- Personal communications with Diego Ongaro, 2013. -->
 </blockquote>
-        </div>
+</div>
 
         </div> <!-- end carousel-inner -->
         <a class="left carousel-control" href="#quotesCarousel" data-slide="prev">
