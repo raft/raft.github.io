@@ -40,6 +40,16 @@ $(function() {
   // carousel until now
   carousel.addClass('slide');
 
+  // Set up quote ellision/expansion
+  var expandQuote = function() {
+     $(this).hide();
+     $(this).next().fadeIn();
+     setCarouselHeight(carousel);
+     return false;
+  }
+  $('.ellide').before($('<a href="#">[...]</a>').click(expandQuote));
+  $('.ellide').css('display', 'none');
+
   // Set carousel height
   $(window).resize(function() { setCarouselHeight(carousel) });
   setCarouselHeight(carousel);
@@ -82,7 +92,7 @@ a:focus.carousel-control  {
 #quotesCarousel {
   max-width: 800px;
 }
-#quotesCarousel blockquote small a {
+#quotesCarousel blockquote a {
   color: inherit;
 }
     </style>
@@ -132,11 +142,12 @@ decisions.
 We decided to create <strong>our own implementation of Raft</strong> as on the
 .NET stack there were no mature options at the time. It is <strong>implemented
 in the F# language</strong> and is pretty close to what is described in the
-Raft paper. Log replication, leader elections, cluster configurations changes
-and log persistence are all fully implemented. The only thing missing currently
-is log compaction but that is in the works. One notable difference is that we
-chose to use asynchronous messaging instead of RPC which meant we had to make a
-few smaller amendments to get the same behaviour as described in the paper.
+Raft paper. <span class="ellide"> Log replication, leader elections, cluster
+configurations changes and log persistence are all fully implemented. The only
+thing missing currently is log compaction but that is in the works. One notable
+difference is that we chose to use asynchronous messaging instead of RPC which
+meant we had to make a few smaller amendments to get the same behaviour as
+described in the paper.</span>
 </p>
 
 <p>
