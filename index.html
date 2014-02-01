@@ -54,6 +54,30 @@ $(function() {
   $(window).resize(function() { setCarouselHeight(carousel) });
   setCarouselHeight(carousel);
 });
+
+// Reorder implementations based on github stars and last update.
+$(function() {
+  $.getScript('https://ramcloud.stanford.edu/~ongaro/raft/repos.jsonp',
+                  function() {
+    var repos = raft_repos();
+    var impltable = $('#implementations');
+    var implrows = $('tbody tr', impltable);
+    implrows.each(function(i, row) {
+      var url = $('td:first a', row).prop('href');
+      if (url in repos) {
+        repos[url].row = row;
+      }
+    });
+    var repos_list = [];
+    $.each(repos, function(url, repo) {
+      repos_list.push({url: url, repo: repo});
+    });
+    repos_list.sort(function(i, j) { return i.repo.rank - j.repo.rank; })
+    repos_list.forEach(function(repow) {
+      impltable.prepend(repow.repo.row);
+    });
+  });
+});
     </script>
 
     <style>
@@ -441,12 +465,18 @@ The best place to ask questions about Raft and its implementations is the
 <p>
 There are many implementations of Raft available in various stages of
 development. This table lists the implementations we know about with source
-code available. It's sorted by language, then project name. This information
-will inevitably get out of date; please send us a bug report or pull request to
-update it.
+code available. The most popular and/or recently updated implementations are
+towards the top. This information will inevitably get out of date; please send
+us a bug report or pull request to update it.
 </p>
 
-<table class="table table-striped table-hover"><tbody>
+<!--
+When you add an implementation, place it in the table sorted by programming
+language, then by name alphabetically. Some javascript towards the top of the
+page will reorder these based on github stars and last repo update.
+-->
+<table id="implementations" class="table table-striped table-hover"><tbody>
+<thead>
 <tr>
   <th>Name</th>
   <th>Primary Authors</th>
@@ -457,6 +487,8 @@ update it.
   <th>Log Compaction?</th>
   <th>Row Last Updated</th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td><a href="https://github.com/bspolley/raft">bspolley/raft</a></td>
   <td>Alex Kaiser, Brennan Polley, Helen Weng (Berkeley)</td>
@@ -837,7 +869,8 @@ update it.
   <td>No</td>
   <td>2013-12-10</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 
     </div>
     </div> <!-- end MAIN -->
