@@ -148,6 +148,39 @@ More quotes go here:
 <blockquote>
 
 <p>
+Consul is a new product by HashiCorp which aims to solve the core issues of
+service discovery and configuration. As part of that it needs to maintain a
+strongly consistent catalog shared between multiple servers for availability.
+<strong>Raft was used as the consensus protocol for Consul because it was the
+most readily understandable and simple algorithm available.</strong>
+</p>
+
+<p>
+The simplicity of Raft reduced our time to market, and now Consul powers
+HashiCorp, a number of customers using our on-premise product, and hopefully
+soon many thousands of other clients through our open source efforts.
+</p>
+
+<p>
+We've open sourced our Raft library as well, allowing others to use it
+independently of Consul. The library fully implements the protocol as
+described, following the paper as closely as possible.
+</p>
+
+<small>
+  <a href="https://twitter.com/armon">Armon Dadgar</a>,
+  <a href="http://www.hashicorp.com/">HashiCorp</a>
+</small>
+<!-- raft-dev posting, 2014. -->
+</blockquote>
+</div>
+
+
+
+<div class="item">
+<blockquote>
+
+<p>
 We built a key piece of <strong>InfluxDB, a distributed time series
 database</strong>, on top of Raft. Specifically, the go-raft implementation,
 which follows the paper very closely. We're using Raft for <strong>consensus
