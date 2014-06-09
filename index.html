@@ -47,7 +47,7 @@ $(function() {
      setCarouselHeight(carousel);
      return false;
   }
-  $('.ellide').before($('<a href="#">[...]</a>').click(expandQuote));
+  $('.ellide').before($('<a href="#">[&hellip;]</a>').click(expandQuote));
   $('.ellide').css('display', 'none');
 
   // Set carousel height
@@ -143,6 +143,58 @@ More quotes go here:
  - Newer quotes go on top.
  - Use <strong> for emphasis.
 -->
+
+<div class="item">
+<blockquote>
+
+<p>
+Today, <strong>in addition to Messages</strong>, HBase is
+used in production by other <strong>Facebook</strong>
+services, including &hellip; search indexing, streaming data
+analysis, and data scraping for our internal data
+warehouses. &hellip;
+</p>
+
+<p>
+HBase in a master-slave setup &hellip; requires failover to
+be carried out at the cluster level, causes <strong>outages
+on the order of minutes of downtime when failing over from
+master to slave</strong>, and potentially results in data
+loss due to the asynchronous nature of the replication.
+&hellip;
+</p>
+
+<p>
+Over the last year, <strong>we've been working on
+HydraBase</strong>, which avoids these limitations and
+<strong>provides higher reliability</strong> with the same
+storage footprint as a master-slave replicated setup.
+&hellip;
+</p>
+
+<p>
+<strong>HydraBase uses the Raft consensus protocol to ensure
+consistency across the quorum.</strong> &hellip;
+</p>
+
+<p>
+With HydraBase, we have the potential to increase the
+reliability of HBase from 99.99% availability to 99.999%
+&hellip;
+</p>
+
+<p>
+<strong>We're currently testing HydraBase and plan to roll
+it out in phases across our production clusters.</strong>
+&hellip;
+</p>
+
+<small>
+  <a href="https://code.facebook.com/posts/321111638043166/hydrabase-the-evolution-of-hbase-facebook/">HBase@Facebook, Facebook Engineering Blog</a>
+</small>
+<!-- HydraBase - The evolution of HBase@Facebook, Facebook Engineering Blog, June 5, 2014. -->
+</blockquote>
+</div>
 
 <div class="item">
 <blockquote>
