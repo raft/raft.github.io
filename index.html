@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -441,10 +442,10 @@ is a different visualization of Raft. It's more guided and less interactive, so
 it may be a gentler starting point.
 </p>
 
-<h3>Where can I learn more?</h3>
+<h3>Publications</h3>
 
 <p>
-The paper describes Raft in detail:
+This is "the Raft paper", which describes Raft in detail:
 <a href="http://ramcloud.stanford.edu/raft.pdf">In Search of an Understandable Consensus Algorithm (Extended Version)</a>
 by <a href="https://twitter.com/ongardie">Diego Ongaro</a> and
 <a href="http://www.stanford.edu/~ouster/">John Ousterhout</a>.
@@ -454,13 +455,50 @@ A slightly shorter version of this paper received a Best Paper Award at the
 
 <p>
 Diego Ongaro's
-<a href="http://ramcloud.stanford.edu/~ongaro/thesis.pdf">Ph.D. dissertation</a>
+<a href="https://github.com/ongardie/dissertation#readme">Ph.D. dissertation</a>
 expands on the content of the paper in much more detail, and
 it includes a simpler cluster membership change algorithm.
 </p>
 
+<p>More Raft-related papers:</p>
+<ul>
+  <li>
+    <p>
+    Hugues Evrard and
+    Frédéric Lang.
+    <br />
+    <a href="https://hal.inria.fr/hal-01086522">Automatic Distributed Code Generation from Formal Models of Asynchronous Concurrent Processes</a>.
+    <br />
+    Parallel, Distributed, and Network-Based Processing (PDP), March 2015.
+    </p>
+  </li>
+  <li>
+    <p>
+    <a href="https://twitter.com/heidiann360">Heidi Howard</a>,
+    Malte Schwarzkopf,
+    Anil Madhavapeddy, and
+    Jon Crowcroft.
+    <br />
+    <a href="http://www.cl.cam.ac.uk/~ms705/pub/papers/2015-osr-raft.pdf">Raft Refloated: Do We Have Consensus?</a>.
+    <br />
+    SIGOPS Operating Systems Review, January 2015.
+    </p>
+  </li>
+  <li>
+    <p>
+    Heidi Howard.
+    <br />
+    <a href="http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-857.html">ARC: Analysis of Raft Consensus</a>.
+    <br />
+    University of Cambridge, Computer Laboratory, UCAM-CL-TR-857, July 2014.
+    </p>
+  </li>
+</ul>
+
+<h3>Talks</h3>
+
 <p>
-These talks also serve as good introductions to Raft:
+These talks serve as good introductions to Raft:
 </p>
 <!-- Please keep the following list in reverse chronological order. -->
 <ul class="list-group">
