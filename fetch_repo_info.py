@@ -62,7 +62,7 @@ def repo_url_to_id(url):
         return m.group(1)
 
 def get_all_urls():
-    response = urllib2.urlopen('http://raftconsensus.github.io')
+    response = urllib2.urlopen('http://raft.github.io')
     content = BeautifulSoup(response)
     urls = [link.get('href') for link in content.find_all('a')]
     return list(set(urls))
