@@ -1,3 +1,7 @@
 [submodule "raftscope"]
 	path = raftscope
 	url = https://github.com/ongardie/raftscope/
+[submodule "raftscope-replay"]
+	path = raftscope-replay
+	url = https://github.com/ongardie/raftscope/
+	branch = replay
