@@ -55,7 +55,7 @@ def get_repo_score(repo):
 def repo_url_to_id(url):
     if url is None:
         return None
-    m = re.match(r'https?://github.com/([^/]+/[^/]+)/?', url)
+    m = re.match(r'https?://github.com/([^/#]+/[^/#]+)/?', url)
     if m is None:
         return None
     else:
