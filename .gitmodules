@@ -5,3 +5,6 @@
 	path = raftscope-replay
 	url = https://github.com/ongardie/raftscope/
 	branch = replay
+[submodule "logo"]
+	path = logo
+	url = https://github.com/raft/logo/
