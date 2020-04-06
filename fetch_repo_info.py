@@ -161,6 +161,5 @@ if __name__ == "__main__":
         }, f)
 
     import pandas as pd
-    data = [item['data'] for item in g]
-    df = pd.DataFrame(data)
+    df = pd.DataFrame(data=[item['data']['repository'] for item in g])
     df.to_excel('raft_github.xlsx')
