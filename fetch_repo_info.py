@@ -1,109 +1,166 @@
-#!/usr/bin/env python2
+#!/usr/bin/python3
+import logging
+from time import ctime
+from urllib.parse import urlparse
 
-# This script is under the public domain.
-
+import requests
 from bs4 import BeautifulSoup
-import json
-import os
-import re
-import time
-import urllib2
 
+AUTHENTICATION_TOKEN = '<<<PUT YOUR TOKEN HERE>>>'
+
+ENDPOINT = 'https://api.github.com/graphql'
+
+GQ_LOGIN = """
+{
+  viewer {
+    login
+  }
+}
 """
-Possibly interesting fields:
-- created_at
-- description
-- forks_count
-- homepage
-- pushed_at
-- size
-- stargazers_count
-- subscribers_count
-- updated_at
-- watchers_count
+
+GQ_GETREPO = """
+{
+  repository(owner: "<o>", name: "<n>") {
+    url
+    homepageUrl
+    description
+    createdAt
+    updatedAt
+    pushedAt
+    forkCount
+    watchers {
+      totalCount
+    }
+    primaryLanguage {
+      name
+    }
+    stargazers {
+      totalCount
+    }
+    licenseInfo {
+      name
+    }
+    nameWithOwner
+    diskUsage
+  }
+}
 """
-def get_repo(repo_id):
-    if repo_id is None:
-        return None
-    api_url = 'https://api.github.com/repos/%s' % repo_id
-    try:
-        api_url2 = '%s?access_token=%s' % (api_url, os.environ['GITHUB_TOKEN'])
-    except KeyError:
-        api_url2 = api_url
 
-    try:
-        response = urllib2.urlopen(api_url2)
-    except urllib2.HTTPError, e:
-        print 'Warning: URL %s returned status %d' % (api_url, e.code)
-        try:
-            print json.load(e)
-        except:
-            pass
-        return None
+
+def extract_metadata_from_url(url):
+    print(f"[{ctime()}] {url}")
+
+    resp = requests.head(url)
+    while resp.status_code == 301:
+        url = resp.headers['location']
+        resp = requests.head(url)
+
+    parsed = urlparse(resp.url) if resp.status_code == 200 else urlparse(url)
+
+    if parsed.netloc == 'github.com':
+        parts = parsed.path.split('/')
+        return {
+            'url': resp.url,
+            'netloc': parsed.netloc,
+            'owner': parts[1],
+            'name': parts[2]
+        }
     else:
-        content = json.load(response)
-        return content
+        return {
+            'url': resp.url,
+            'netloc': parsed.netloc
+        }
 
-def days_since(timestr):
-    now = time.mktime(time.gmtime())
-    then = time.mktime(time.strptime(timestr, '%Y-%m-%dT%H:%M:%SZ'))
-    return (now - then) / 60 / 60 / 24
 
-def get_repo_score(repo):
-    return repo.get('stargazers_count', 0)
-
-def repo_url_to_id(url):
-    if url is None:
-        return None
-    m = re.match(r'https?://github.com/([^/#]+/[^/#]+)/?', url)
-    if m is None:
-        return None
+def fetch_detail(session, metadata):
+    if metadata['netloc'] != 'github.com':
+        return {'request': metadata}
     else:
-        return m.group(1)
+        print(f"[{ctime()}] {metadata['owner']} {metadata['name']}")
 
-def get_all_urls():
-    response = urllib2.urlopen('http://raft.github.io')
-    content = BeautifulSoup(response)
-    urls = [link.get('href') for link in content.find_all('a')]
-    return list(set(urls))
+        query = GQ_GETREPO \
+            .replace('<n>', metadata['name']) \
+            .replace('<o>', metadata['owner'])
 
-def get_all_repos():
-    urls = get_all_urls()
-    repos = [(url, get_repo(repo_url_to_id(url)))
-             for url in urls]
-    repos = [(url, repo)
-             for url, repo in repos
-             if repo is not None]
-    return repos
+        resp = session.post(ENDPOINT, json={'query': query}).json()
+        resp['request'] = metadata
+        return resp
 
-def rank(repos, sort_key, result_key, reverse=False):
-    for rank, (url, repo) in enumerate(sorted(repos,
-                                       key=lambda (url, repo): sort_key(repo),
-                                       reverse=reverse)):
-        repo[result_key] = rank
 
-def main(filename='repos.jsonp'):
-    repos = get_all_repos()
-    rank(repos,
-         sort_key=lambda repo: repo.get('stargazers_count', 0),
-         result_key='stars_rank')
-    rank(repos,
-         sort_key=lambda repo: repo.get('updated_at', '1970-01-01T00:00:00Z'),
-         result_key='updated_rank')
-    for url, repo in repos:
-        repo['rank'] = repo['stars_rank'] + repo['updated_rank']
-    repos.sort(key=lambda (url, repo): repo['rank'], reverse=True)
-    f = open(filename, 'w')
-    f.write('var raft_repos = function() {\n')
-    f.write('return ')
-    json.dump(dict([(url,
-                     {'rank': repo['rank'],
-                      'stars': repo['stargazers_count'],
-                      'updated': repo['updated_at']})
-                     for (url, repo) in repos]),
-              f)
-    f.write(';\n')
-    f.write('};\n')
+def process_repo_detail(repo):
+    for key in ['watchers', 'stargazers']:
+        repo[key] = repo[key]['totalCount'] if isinstance(
+            repo[key], dict) else repo[key]
 
-if __name__ == '__main__':
-    main()
+    for key in ['primaryLanguage', 'licenseInfo']:
+        repo[key] = repo[key]['name'] if isinstance(
+            repo[key], dict) else repo[key]
+
+    return repo
+
+
+def main():
+    ############################################################################
+    print('=\n== GET ALL PROJECTS FROM http://raft.github.io ===')
+    ############################################################################
+
+    resp = requests.get('http://raft.github.io')
+    assert(resp.status_code == 200)
+    soup = BeautifulSoup(resp.content, 'html.parser')
+    table_rows = soup.find('table', id='implementations').find_all('tr')
+    urls = map(lambda tr: tr.find('td').find('a').get('href'), table_rows[1:])
+
+    projects = [extract_metadata_from_url(url) for url in set(urls)]
+
+    ############################################################################
+    print(f'\n=== GET DETAILS FROM {ENDPOINT} ===')
+    ############################################################################
+
+    session = requests.session()
+    session.headers['Authorization'] = f'bearer {AUTHENTICATION_TOKEN}'
+
+    resp = session.post(ENDPOINT, json={'query': GQ_LOGIN})
+    assert(resp.status_code == 200 and 'errors' not in resp.json())
+
+    details = [fetch_detail(session, metadata) for metadata in projects]
+
+    ############################################################################
+    print(f'\n=== PROCESS DETAILS ===')
+    ############################################################################
+
+    github = []
+    errors = []
+    others = []
+    for detail in details:
+        if 'errors' in detail:
+            errors.append(detail)
+            continue
+
+        if 'data' not in detail:
+            others.append(detail)
+            continue
+
+        process_repo_detail(detail['data']['repository'])
+        github.append(detail)
+
+    print(errors)
+    return github, others, errors
+
+
+if __name__ == "__main__":
+    import json
+
+    g, o, e = main()
+
+    print(f'=== DUMP TO FILES ===')
+    with open('raft_projects.json', 'w') as f:
+        json.dump({
+            'github': g,
+            'others': o,
+            'errors': e
+        }, f)
+
+    import pandas as pd
+    data = [item['data'] for item in g]
+    df = pd.DataFrame(data)
+    df.to_excel('raft_github.xlsx')
