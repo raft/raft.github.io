@@ -1,0 +1,80 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raft.github.io/implementation.schema.json",
+    "title": "Implementation",
+    "description": "...",
+    "type": "object",
+    "properties": {
+        "repoURL": {
+            "type": "string",
+            "pattern": "^https://github.com/([^/]+)/([^/]+)(?<!.git)$",
+            "format": "uri"
+        },
+        "directory": {
+            "type": "string",
+            "pattern": "^[^/].*/$"
+        },
+        "name": {
+            "type": "string",
+            "pattern": "^.+(?<!^[Rr][Aa][Ff][Tt])$"
+        },
+        "authors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "twitter": {
+                        "type": "string",
+                        "pattern": "^https://twitter.com/([^/]+)$",
+                        "format": "uri"
+                    },
+                    "github": {
+                        "type": "string",
+                        "pattern": "^https://github.com/([^/]+)$",
+                        "format": "uri"
+                    },
+                    "homepage": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                }
+            },
+            "maxItems": 7
+        },
+        "language": {
+            "type": "string",
+            "description": "SPDX license expression. See https://spdx.org/licenses/"
+        },
+        "license": {
+            "type": "string"
+        },
+        "features": {
+            "type": "object",
+            "properties": {
+                "basic": {
+                    "type": "boolean",
+                    "description": "Leader election and log replication"
+                },
+                "persistence": {
+                    "type": "boolean",
+                    "description": "Term and log are persisted to disk"
+                },
+                "logCompaction": {
+                    "type": "boolean"
+                },
+                "membershipChanges": {
+                    "type": "boolean"
+                }
+            }
+        }
+    },
+    "required": [
+        "name",
+        "repoURL",
+        "language"
+    ],
+    "additionalProperties": false
+}
