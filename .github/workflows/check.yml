@@ -1,0 +1,13 @@
+name: check
+on: [push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3
+      uses: actions/setup-python@v1
+    - name: Install dependencies
+      run: pip install jsonschema
+    - name: Run check.py
+      run: ./check.py
