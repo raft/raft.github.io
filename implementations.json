@@ -841,6 +841,22 @@
         }
     },
     {
+        "repoURL": "https://github.com/filipecampos/raft4ws",
+        "name": "Raft4WS",
+        "authors": [
+            {
+                "name": "Filipe Campos"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
         "repoURL": "https://github.com/evanphx/zodiac-prime",
         "name": "zodiac-prime",
         "authors": [
@@ -853,22 +869,6 @@
         "license": "MIT",
         "features": {
             "basic": false,
-            "membershipChanges": false,
-            "logCompaction": false
-        }
-    },
-    {
-        "repoURL": "https://github.com/filipecampos/raft4ws",
-        "name": "Raft4WS",
-        "authors": [
-            {
-                "name": "Filipe Campos"
-            }
-        ],
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
             "membershipChanges": false,
             "logCompaction": false
         }
