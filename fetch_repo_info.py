@@ -1,13 +1,14 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # This script is under the public domain.
 
-from bs4 import BeautifulSoup
+import base64
 import json
 import os
 import re
 import time
-import urllib2
+from urllib.error import URLError
+from urllib.request import urlopen, Request
 
 """
 Possibly interesting fields:
@@ -25,18 +26,24 @@ Possibly interesting fields:
 def get_repo(repo_id):
     if repo_id is None:
         return None
-    api_url = 'https://api.github.com/repos/%s' % repo_id
+    headers = {}
+    url = 'https://api.github.com/repos/%s' % repo_id
+
+    # Expected format: username:hexadecimalpersonalaccesstoken.
     try:
-        api_url2 = '%s?access_token=%s' % (api_url, os.environ['GITHUB_TOKEN'])
+        credentials = os.environ['GITHUB_TOKEN']
     except KeyError:
-        api_url2 = api_url
+        pass
+    else:
+        credentials = base64.b64encode(bytes(credentials, 'utf-8'))
+        headers['Authorization'] = b'Basic ' + credentials
 
     try:
-        response = urllib2.urlopen(api_url2)
-    except urllib2.HTTPError, e:
-        print 'Warning: URL %s returned status %d' % (api_url, e.code)
+        response = urlopen(Request(url, headers=headers))
+    except URLError as e:
+        print(f'Warning: Fetching {url} failed: {e.reason}')
         try:
-            print json.load(e)
+            print(json.load(e))
         except:
             pass
         return None
@@ -55,20 +62,16 @@ def get_repo_score(repo):
 def repo_url_to_id(url):
     if url is None:
         return None
-    m = re.match(r'https?://github.com/([^/#]+/[^/#]+)/?', url)
+    m = re.match(r'https://github.com/([^/#]+/[^/#]+)/?', url)
     if m is None:
         return None
     else:
         return m.group(1)
 
-def get_all_urls():
-    response = urllib2.urlopen('http://raft.github.io')
-    content = BeautifulSoup(response)
-    urls = [link.get('href') for link in content.find_all('a')]
-    return list(set(urls))
-
 def get_all_repos():
-    urls = get_all_urls()
+    response = urlopen('https://raft.github.io/implementations.json')
+    impls = json.load(response)
+    urls = [impl['repoURL'] for impl in impls]
     repos = [(url, get_repo(repo_url_to_id(url)))
              for url in urls]
     repos = [(url, repo)
@@ -76,10 +79,9 @@ def get_all_repos():
              if repo is not None]
     return repos
 
-def rank(repos, sort_key, result_key, reverse=False):
-    for rank, (url, repo) in enumerate(sorted(repos,
-                                       key=lambda (url, repo): sort_key(repo),
-                                       reverse=reverse)):
+def rank(repos, sort_key, result_key):
+    for rank, (_url, repo) in enumerate(sorted(repos,
+                                        key=lambda repo: sort_key(repo[1]))):
         repo[result_key] = rank
 
 def main(filename='repos.jsonp'):
@@ -90,9 +92,9 @@ def main(filename='repos.jsonp'):
     rank(repos,
          sort_key=lambda repo: repo.get('updated_at', '1970-01-01T00:00:00Z'),
          result_key='updated_rank')
-    for url, repo in repos:
+    for _url, repo in repos:
         repo['rank'] = repo['stars_rank'] + repo['updated_rank']
-    repos.sort(key=lambda (url, repo): repo['rank'], reverse=True)
+    repos.sort(key=lambda repo: repo[1]['rank'], reverse=True)
     f = open(filename, 'w')
     f.write('var raft_repos = function() {\n')
     f.write('return ')
@@ -101,7 +103,8 @@ def main(filename='repos.jsonp'):
                       'stars': repo['stargazers_count'],
                       'updated': repo['updated_at']})
                      for (url, repo) in repos]),
-              f)
+              f,
+              indent=4)
     f.write(';\n')
     f.write('};\n')
 
