@@ -34,9 +34,9 @@ $(function() {
         impl.authors.forEach(function(author, i) {
           let el;
           if (author.github !== undefined) {
-            el = $('<a>').attr('href', author.github).text(author.name);
+            el = $('<a>').attr('href', 'https://github.com/' + author.github).text(author.name);
           } else if (author.twitter !== undefined) {
-            el = $('<a>').attr('href', author.twitter).text(author.name);
+            el = $('<a>').attr('href', 'https://twitter.com/' + author.twitter).text(author.name);
           } else {
             el = $('<span>').text(author.name);
           }

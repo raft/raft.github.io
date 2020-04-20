@@ -5,7 +5,7 @@
         "authors": [
             {
                 "name": "Sasha Chepurnoi",
-                "github": "https://github.com/AChepurnoi"
+                "github": "AChepurnoi"
             }
         ],
         "language": "Kotlin",
@@ -22,7 +22,7 @@
         "authors": [
             {
                 "name": "Andrew Hobden",
-                "twitter": "https://twitter.com/andrewhobden"
+                "twitter": "andrewhobden"
             },
             {
                 "name": "Dan Burkert"
@@ -42,7 +42,7 @@
         "authors": [
             {
                 "name": "Ivan Prodaiko",
-                "github": "https://github.com/IvanProdaiko94"
+                "github": "IvanProdaiko94"
             }
         ],
         "language": "Go",
@@ -59,7 +59,7 @@
         "authors": [
             {
                 "name": "Nicolas Trangez",
-                "twitter": "https://twitter.com/eikke"
+                "twitter": "eikke"
             }
         ],
         "language": "Haskell",
@@ -76,11 +76,11 @@
         "authors": [
             {
                 "name": "Nicola Manzini",
-                "github": "https://github.com/nmanzini"
+                "github": "nmanzini"
             },
             {
                 "name": "Peng Ding",
-                "github": "https://github.com/Oaklight"
+                "github": "Oaklight"
             }
         ],
         "language": "Python",
@@ -97,15 +97,15 @@
         "authors": [
             {
                 "name": "ZongzhiChen",
-                "github": "https://github.com/baotiao"
+                "github": "baotiao"
             },
             {
                 "name": "AnAnZhao",
-                "github": "https://github.com/flabby"
+                "github": "flabby"
             },
             {
                 "name": "KangWang",
-                "github": "https://github.com/CatKang"
+                "github": "CatKang"
             }
         ],
         "language": "C++",
@@ -122,7 +122,7 @@
         "authors": [
             {
                 "name": "Waqee Khalid",
-                "twitter": "https://twitter.com/WaqeeKhalid"
+                "twitter": "WaqeeKhalid"
             }
         ],
         "language": "PHP",
@@ -139,7 +139,7 @@
         "authors": [
             {
                 "name": "Aaron Pritzlaff",
-                "github": "https://github.com/aaronp"
+                "github": "aaronp"
             }
         ],
         "language": "Scala",
@@ -157,7 +157,7 @@
         "authors": [
             {
                 "name": "Adrian Punga",
-                "github": "https://github.com/adi"
+                "github": "adi"
             }
         ],
         "language": "TypeScript",
@@ -174,11 +174,11 @@
         "authors": [
             {
                 "name": "Boyan",
-                "github": "https://github.com/killme2008"
+                "github": "killme2008"
             },
             {
                 "name": "Jiachun",
-                "github": "https://github.com/fengjiachun"
+                "github": "fengjiachun"
             }
         ],
         "language": "Java",
@@ -196,7 +196,7 @@
         "authors": [
             {
                 "name": "Allen George",
-                "twitter": "https://twitter.com/allenageorge"
+                "twitter": "allenageorge"
             }
         ],
         "language": "Java",
@@ -213,7 +213,7 @@
         "authors": [
             {
                 "name": "Adam Midvidy",
-                "twitter": "https://twitter.com/amidvidy"
+                "twitter": "amidvidy"
             },
             {
                 "name": "Anh Mai"
@@ -239,7 +239,7 @@
         "authors": [
             {
                 "name": "Andrew Stone",
-                "twitter": "https://twitter.com/andrew_j_stone"
+                "twitter": "andrew_j_stone"
             }
         ],
         "language": "Erlang",
@@ -290,15 +290,15 @@
         "authors": [
             {
                 "name": "David Alves",
-                "twitter": "https://twitter.com/dribeiroalves"
+                "twitter": "dribeiroalves"
             },
             {
                 "name": "Todd Lipcon",
-                "twitter": "https://twitter.com/tlipcon"
+                "twitter": "tlipcon"
             },
             {
                 "name": "Mike Percy",
-                "twitter": "https://twitter.com/mike_percy"
+                "twitter": "mike_percy"
             }
         ],
         "language": "C++",
@@ -316,11 +316,11 @@
         "authors": [
             {
                 "name": "Marcus Ljungblad",
-                "twitter": "https://twitter.com/mljungblad"
+                "twitter": "mljungblad"
             }
         ],
         "language": "Scala",
-        "license": "N/A",
+        "license": "MIT",
         "features": {
             "basic": false,
             "membershipChanges": false,
@@ -333,7 +333,7 @@
         "authors": [
             {
                 "name": "Hendrik",
-                "twitter": "https://twitter.com/Asmod4n"
+                "twitter": "Asmod4n"
             }
         ],
         "language": "mruby",
@@ -350,7 +350,7 @@
         "authors": [
             {
                 "name": "Jordan Halterman",
-                "twitter": "https://twitter.com/definekuujo"
+                "twitter": "definekuujo"
             }
         ],
         "language": "Java",
@@ -402,7 +402,7 @@
         "authors": [
             {
                 "name": "Ben Ng",
-                "twitter": "https://twitter.com/_benng"
+                "twitter": "_benng"
             }
         ],
         "language": "Javascript",
@@ -461,19 +461,19 @@
         "authors": [
             {
                 "name": "Brian Schroeder",
-                "twitter": "https://twitter.com/bschroed"
+                "twitter": "bschroed"
             },
             {
                 "name": "Libby Kent",
-                "github": "https://github.com/libby"
+                "github": "libby"
             },
             {
                 "name": "Stuart Popejoy",
-                "twitter": "https://twitter.com/SirLensALot"
+                "twitter": "SirLensALot"
             },
             {
                 "name": "Will Martino",
-                "github": "https://github.com/buckie"
+                "github": "buckie"
             }
         ],
         "language": "Haskell",
@@ -490,7 +490,7 @@
         "authors": [
             {
                 "name": "Eric Jutrzenka",
-                "twitter": "https://twitter.com/burma5have"
+                "twitter": "burma5have"
             }
         ],
         "language": "Scala",
@@ -507,7 +507,7 @@
         "authors": [
             {
                 "name": "Jakob Sievers",
-                "twitter": "https://twitter.com/cannedprimates"
+                "twitter": "cannedprimates"
             }
         ],
         "language": "Erlang",
@@ -524,7 +524,7 @@
         "authors": [
             {
                 "name": "Free Ekanayaka",
-                "github": "https://github.com/freeekanayaka"
+                "github": "freeekanayaka"
             }
         ],
         "language": "C",
@@ -542,7 +542,7 @@
         "authors": [
             {
                 "name": "Chris Birchall",
-                "twitter": "https://twitter.com/cbirchall"
+                "twitter": "cbirchall"
             }
         ],
         "language": "Scala",
@@ -559,7 +559,7 @@
         "authors": [
             {
                 "name": "Alexander Flatter",
-                "twitter": "https://twitter.com/aflatter"
+                "twitter": "aflatter"
             }
         ],
         "language": "Ruby",
@@ -592,15 +592,15 @@
         "authors": [
             {
                 "name": "Ryan Rawson",
-                "twitter": "https://twitter.com/ryanobjc"
+                "twitter": "ryanobjc"
             },
             {
                 "name": "Alex Newman",
-                "twitter": "https://twitter.com/posix4e"
+                "twitter": "posix4e"
             },
             {
                 "name": "Josh Greenberg",
-                "github": "https://github.com/joshua-g"
+                "github": "joshua-g"
             }
         ],
         "language": "Java",
@@ -641,7 +641,7 @@
         "authors": [
             {
                 "name": "Danny Coates",
-                "twitter": "https://twitter.com/antiserf"
+                "twitter": "antiserf"
             }
         ],
         "language": "Javascript",
@@ -658,7 +658,7 @@
         "authors": [
             {
                 "name": "Shanliang Shen",
-                "github": "https://github.com/dataleading"
+                "github": "dataleading"
             }
         ],
         "language": "Java",
@@ -691,11 +691,11 @@
         "authors": [
             {
                 "name": "Ben Mills",
-                "twitter": "https://twitter.com/benemills"
+                "twitter": "benemills"
             },
             {
                 "name": "William Dix",
-                "twitter": "https://twitter.com/williamjdix"
+                "twitter": "williamjdix"
             }
         ],
         "language": "Go",
@@ -746,7 +746,7 @@
         "authors": [
             {
                 "name": "David Rodenas",
-                "twitter": "https://twitter.com/drpicox"
+                "twitter": "drpicox"
             }
         ],
         "language": "Java",
@@ -795,7 +795,7 @@
         "authors": [
             {
                 "name": "Jung-Sang Ahn",
-                "github": "https://github.com/greensky00"
+                "github": "greensky00"
             }
         ],
         "language": "C++",
@@ -829,7 +829,7 @@
         "authors": [
             {
                 "name": "Eric Moritz",
-                "twitter": "https://twitter.com/ericmoritz"
+                "twitter": "ericmoritz"
             }
         ],
         "language": "Erlang",
@@ -846,7 +846,7 @@
         "authors": [
             {
                 "name": "Evan Phoenix",
-                "twitter": "https://twitter.com/evanphx"
+                "twitter": "evanphx"
             }
         ],
         "language": "Ruby",
@@ -896,11 +896,11 @@
         "authors": [
             {
                 "name": "Ben Johnson ",
-                "twitter": "https://twitter.com/benbjohnson"
+                "twitter": "benbjohnson"
             },
             {
                 "name": "Xiang Li",
-                "twitter": "https://twitter.com/xiangli0227"
+                "twitter": "xiangli0227"
             },
             {
                 "name": "CoreOS)"
@@ -921,7 +921,7 @@
         "authors": [
             {
                 "name": "Guillermo Rodr\u00edguez",
-                "github": "https://github.com/guille"
+                "github": "guille"
             }
         ],
         "language": "C#",
@@ -938,7 +938,7 @@
         "authors": [
             {
                 "name": "Henrik Feldt",
-                "twitter": "https://twitter.com/henrikfeldt"
+                "twitter": "henrikfeldt"
             }
         ],
         "language": "F#",
@@ -955,7 +955,7 @@
         "authors": [
             {
                 "name": "Harry Wilkinson",
-                "twitter": "https://twitter.com/harwilk"
+                "twitter": "harwilk"
             }
         ],
         "language": "Ruby",
@@ -972,7 +972,7 @@
         "authors": [
             {
                 "name": "Armon Dadgar",
-                "twitter": "https://twitter.com/armon"
+                "twitter": "armon"
             }
         ],
         "language": "Go",
@@ -991,11 +991,11 @@
         "authors": [
             {
                 "name": "Mehmet Dogan",
-                "github": "https://github.com/mdogan"
+                "github": "mdogan"
             },
             {
                 "name": "Ensar Basri Kahveci",
-                "github": "https://github.com/metanet"
+                "github": "metanet"
             }
         ],
         "language": "Java",
@@ -1013,7 +1013,7 @@
         "authors": [
             {
                 "name": "Heidi Howard",
-                "twitter": "https://twitter.com/heidiann360"
+                "twitter": "heidiann360"
             }
         ],
         "language": "OCaml",
@@ -1058,7 +1058,7 @@
         "authors": [
             {
                 "name": "Huy Le",
-                "twitter": "https://twitter.com/lehuy20"
+                "twitter": "lehuy20"
             }
         ],
         "language": "Ruby",
@@ -1107,7 +1107,7 @@
         "authors": [
             {
                 "name": "Joel Martin",
-                "twitter": "https://twitter.com/bus_kanaka"
+                "twitter": "bus_kanaka"
             }
         ],
         "language": "Javascript",
@@ -1124,7 +1124,7 @@
         "authors": [
             {
                 "name": "Karl-Johan Nilsson",
-                "twitter": "https://twitter.com/kjnilsson"
+                "twitter": "kjnilsson"
             }
         ],
         "language": "F#",
@@ -1141,7 +1141,7 @@
         "authors": [
             {
                 "name": "Mitsunori Komatsu",
-                "twitter": "https://twitter.com/komamitsu_tw"
+                "twitter": "komamitsu_tw"
             }
         ],
         "language": "OCaml",
@@ -1175,7 +1175,7 @@
         "authors": [
             {
                 "name": "Konrad Malawski",
-                "twitter": "https://twitter.com/ktosopl"
+                "twitter": "ktosopl"
             }
         ],
         "language": "Scala",
@@ -1210,7 +1210,7 @@
         "authors": [
             {
                 "name": "Lionel Barrow",
-                "twitter": "https://twitter.com/LionelBarrow"
+                "twitter": "LionelBarrow"
             }
         ],
         "language": "Go",
@@ -1244,7 +1244,7 @@
         "authors": [
             {
                 "name": "Lei Ni",
-                "github": "https://github.com/lni"
+                "github": "lni"
             }
         ],
         "language": "Go",
@@ -1262,7 +1262,7 @@
         "authors": [
             {
                 "name": "Diego Ongaro",
-                "twitter": "https://twitter.com/ongardie"
+                "twitter": "ongardie"
             }
         ],
         "language": "C++",
@@ -1280,7 +1280,7 @@
         "authors": [
             {
                 "name": "Mikaela Patella",
-                "twitter": "https://twitter.com/meatcomputer"
+                "twitter": "meatcomputer"
             }
         ],
         "language": "Clojure",
@@ -1297,7 +1297,7 @@
         "authors": [
             {
                 "name": "Matteo Berti",
-                "github": "https://github.com/methk"
+                "github": "methk"
             },
             {
                 "name": "Arnaldo Cesco ",
@@ -1305,7 +1305,7 @@
             },
             {
                 "name": "Salvatore Fiorilla",
-                "github": "https://github.com/Salvo000"
+                "github": "Salvo000"
             }
         ],
         "language": "Jolie",
@@ -1322,7 +1322,7 @@
         "authors": [
             {
                 "name": "Dave Rusek",
-                "twitter": "https://twitter.com/davidjrusek"
+                "twitter": "davidjrusek"
             }
         ],
         "language": "Java",
@@ -1339,7 +1339,7 @@
         "authors": [
             {
                 "name": "Matt Reiferson",
-                "twitter": "https://twitter.com/imsnakes"
+                "twitter": "imsnakes"
             }
         ],
         "language": "Go",
@@ -1356,7 +1356,7 @@
         "authors": [
             {
                 "name": "Yuki Ito",
-                "twitter": "https://twitter.com/mururururu"
+                "twitter": "mururururu"
             }
         ],
         "language": "Elixir",
@@ -1416,7 +1416,7 @@
         "authors": [
             {
                 "name": "Olivier Paugam",
-                "github": "https://github.com/opaugam"
+                "github": "opaugam"
             }
         ],
         "language": "Rust",
@@ -1462,7 +1462,7 @@
         "authors": [
             {
                 "name": "Pablo Medina",
-                "twitter": "https://twitter.com/pablosmedina"
+                "twitter": "pablosmedina"
             }
         ],
         "language": "Scala",
@@ -1498,7 +1498,7 @@
         "authors": [
             {
                 "name": "Peter Bourgon",
-                "twitter": "https://twitter.com/peterbourgon"
+                "twitter": "peterbourgon"
             }
         ],
         "language": "Go",
@@ -1515,7 +1515,7 @@
         "authors": [
             {
                 "name": "Pedro Teixeira",
-                "twitter": "https://twitter.com/pgte"
+                "twitter": "pgte"
             }
         ],
         "language": "Javascript",
@@ -1533,19 +1533,19 @@
         "authors": [
             {
                 "name": "Jay",
-                "github": "https://github.com/BusyJay"
+                "github": "BusyJay"
             },
             {
                 "name": "ngaut",
-                "github": "https://github.com/ngaut"
+                "github": "ngaut"
             },
             {
                 "name": "siddontang",
-                "twitter": "https://twitter.com/siddontang"
+                "twitter": "siddontang"
             },
             {
                 "name": "tiancaiamao",
-                "github": "https://github.com/tiancaiamao"
+                "github": "tiancaiamao"
             }
         ],
         "language": "Rust",
@@ -1563,7 +1563,7 @@
         "authors": [
             {
                 "name": "arthur",
-                "github": "https://github.com/ppLorins"
+                "github": "ppLorins"
             }
         ],
         "language": "C++",
@@ -1580,7 +1580,7 @@
         "authors": [
             {
                 "name": "Pere Vilas",
-                "twitter": "https://twitter.com/perevilas"
+                "twitter": "perevilas"
             }
         ],
         "language": "Java",
@@ -1597,7 +1597,7 @@
         "authors": [
             {
                 "name": "Team RabbitMQ",
-                "twitter": "https://twitter.com/rabbitmq"
+                "twitter": "rabbitmq"
             }
         ],
         "language": "erlang",
@@ -1660,7 +1660,7 @@
         "authors": [
             {
                 "name": "Roman Sakno",
-                "github": "https://github.com/sakno"
+                "github": "sakno"
             }
         ],
         "language": "C#",
@@ -1677,7 +1677,7 @@
         "authors": [
             {
                 "name": "Santhosh Kumar Tekuri",
-                "github": "https://github.com/santhosh-tekuri"
+                "github": "santhosh-tekuri"
             }
         ],
         "language": "Go",
@@ -1776,7 +1776,7 @@
         "authors": [
             {
                 "name": "Aaron Davidson",
-                "twitter": "https://twitter.com/artichikin"
+                "twitter": "artichikin"
             }
         ],
         "language": "Java",
@@ -1794,7 +1794,7 @@
         "authors": [
             {
                 "name": "Tim Kellogg",
-                "twitter": "https://twitter.com/kellogh"
+                "twitter": "kellogh"
             }
         ],
         "language": "Java",
@@ -1811,7 +1811,7 @@
         "authors": [
             {
                 "name": "Trevor Bernard",
-                "twitter": "https://twitter.com/trevorbernard"
+                "twitter": "trevorbernard"
             }
         ],
         "language": "Clojure",
@@ -1828,7 +1828,7 @@
         "authors": [
             {
                 "name": "Arnout Kazemier",
-                "twitter": "https://twitter.com/3rdEden"
+                "twitter": "3rdEden"
             }
         ],
         "language": "Javascript",
@@ -1886,7 +1886,7 @@
         "authors": [
             {
                 "name": "Patrick Van Stee",
-                "twitter": "https://twitter.com/vanstee"
+                "twitter": "vanstee"
             }
         ],
         "language": "Elixir",
@@ -1903,7 +1903,7 @@
         "authors": [
             {
                 "name": "Patrick Van Stee",
-                "twitter": "https://twitter.com/vanstee"
+                "twitter": "vanstee"
             }
         ],
         "language": "Ruby",
@@ -1936,7 +1936,7 @@
         "authors": [
             {
                 "name": "Fredrick Galoso",
-                "twitter": "https://twitter.com/wayoutmind"
+                "twitter": "wayoutmind"
             }
         ],
         "language": "Clojure",
@@ -1970,7 +1970,7 @@
         "authors": [
             {
                 "name": "Willem-Hendrik Thiart",
-                "twitter": "https://twitter.com/willemht"
+                "twitter": "willemht"
             }
         ],
         "language": "C",
@@ -2005,7 +2005,7 @@
         "authors": [
             {
                 "name": "XnnYygn",
-                "twitter": "https://twitter.com/XY8080"
+                "twitter": "XY8080"
             }
         ],
         "language": "Java",
@@ -2058,7 +2058,7 @@
         "authors": [
             {
                 "name": "Alexander Zhebrak",
-                "github": "https://github.com/zhebrak"
+                "github": "zhebrak"
             }
         ],
         "language": "Python",
@@ -2075,7 +2075,7 @@
         "authors": [
             {
                 "name": "zhyzhyzhy",
-                "github": "https://github.com/zhyzhyzhy"
+                "github": "zhyzhyzhy"
             }
         ],
         "language": "Java",
