@@ -824,30 +824,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/eloquentlabs/Theseus",
-        "name": "Theseus",
-        "authors": [
-            {
-                "name": "Keenon Werling",
-                "github": "https://github.com/keenon",
-                "organization": "Eloquent Labs"
-            },
-            {
-                "name": "Gabor Angeli",
-                "github": "https://github.com/gangeli",
-                "organization": "Eloquent Labs"
-            }
-        ],
-        "language": "Java",
-        "license": "MIT",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/ericmoritz/rafterl",
         "name": "rafterl",
         "authors": [
