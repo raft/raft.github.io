@@ -1,0 +1,2090 @@
+[
+    {
+        "repoURL": "https://github.com/AChepurnoi/raft-kotlin",
+        "name": "raft-kotlin",
+        "authors": [
+            {
+                "name": "Sasha Chepurnoi",
+                "github": "AChepurnoi"
+            }
+        ],
+        "language": "Kotlin",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/Hoverbear/raft",
+        "name": "hoverbear/raft",
+        "authors": [
+            {
+                "name": "Andrew Hobden",
+                "twitter": "andrewhobden"
+            },
+            {
+                "name": "Dan Burkert"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/IvanProdaiko94/raft-protocol-implementation",
+        "name": "IvanProdaiko94/raft-protocol-implementation",
+        "authors": [
+            {
+                "name": "Ivan Prodaiko",
+                "github": "IvanProdaiko94"
+            }
+        ],
+        "language": "Go",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/NicolasT/kontiki",
+        "name": "kontiki",
+        "authors": [
+            {
+                "name": "Nicolas Trangez",
+                "twitter": "eikke"
+            }
+        ],
+        "language": "Haskell",
+        "license": "BSD",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/Oaklight/Vesper",
+        "name": "Vesper",
+        "authors": [
+            {
+                "name": "Nicola Manzini",
+                "github": "nmanzini"
+            },
+            {
+                "name": "Peng Ding",
+                "github": "Oaklight"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/Qihoo360/floyd",
+        "name": "Qihoo360/raft",
+        "authors": [
+            {
+                "name": "ZongzhiChen",
+                "github": "baotiao"
+            },
+            {
+                "name": "AnAnZhao",
+                "github": "flabby"
+            },
+            {
+                "name": "KangWang",
+                "github": "CatKang"
+            }
+        ],
+        "language": "C++",
+        "license": "GPL-3.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/Waqee/Raft-php",
+        "name": "Raft-php",
+        "authors": [
+            {
+                "name": "Waqee Khalid",
+                "twitter": "WaqeeKhalid"
+            }
+        ],
+        "language": "PHP",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/aaronp/riff",
+        "name": "Riff",
+        "authors": [
+            {
+                "name": "Aaron Pritzlaff",
+                "github": "aaronp"
+            }
+        ],
+        "language": "Scala",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/adi/raft.ts",
+        "name": "raft.ts",
+        "authors": [
+            {
+                "name": "Adrian Punga",
+                "github": "adi"
+            }
+        ],
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/alipay/sofa-jraft",
+        "name": "SOFAJRaft",
+        "authors": [
+            {
+                "name": "Boyan",
+                "github": "killme2008"
+            },
+            {
+                "name": "Jiachun",
+                "github": "fengjiachun"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/allengeorge/libraft",
+        "name": "allengeorge/libraft",
+        "authors": [
+            {
+                "name": "Allen George",
+                "twitter": "allenageorge"
+            }
+        ],
+        "language": "Java",
+        "license": "BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/amidvidy/whitewater",
+        "name": "whitewater",
+        "authors": [
+            {
+                "name": "Adam Midvidy",
+                "twitter": "amidvidy"
+            },
+            {
+                "name": "Anh Mai"
+            },
+            {
+                "name": "Karoun Kasraie"
+            },
+            {
+                "name": "Sanketh Katta"
+            }
+        ],
+        "language": "Bloom",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/andrewjstone/rafter",
+        "name": "rafter",
+        "authors": [
+            {
+                "name": "Andrew Stone",
+                "twitter": "andrew_j_stone"
+            }
+        ],
+        "language": "Erlang",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/andy-yx-chen/cornerstone",
+        "name": "Cornerstone",
+        "authors": [
+            {
+                "name": "Andy Chen"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/andy-yx-chen/jraft",
+        "name": "jraft",
+        "authors": [
+            {
+                "name": "Andy Chen"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/apache/incubator-kudu",
+        "name": "Kudu",
+        "authors": [
+            {
+                "name": "David Alves",
+                "twitter": "dribeiroalves"
+            },
+            {
+                "name": "Todd Lipcon",
+                "twitter": "tlipcon"
+            },
+            {
+                "name": "Mike Percy",
+                "twitter": "mike_percy"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/archie/raft",
+        "name": "archie/raft",
+        "authors": [
+            {
+                "name": "Marcus Ljungblad",
+                "twitter": "mljungblad"
+            }
+        ],
+        "language": "Scala",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/ascaridol/mruby-flotte",
+        "name": "mruby-flotte",
+        "authors": [
+            {
+                "name": "Hendrik",
+                "twitter": "Asmod4n"
+            }
+        ],
+        "language": "mruby",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/atomix/copycat",
+        "name": "copycat",
+        "authors": [
+            {
+                "name": "Jordan Halterman",
+                "twitter": "definekuujo"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/bakwc/PySyncObj",
+        "name": "bakwc/PySyncObj",
+        "authors": [
+            {
+                "name": "Filipp Ozinov"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/belaban/jgroups-raft",
+        "name": "jgroups-raft",
+        "authors": [
+            {
+                "name": "Bela Ban"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/ben-ng/gaggle",
+        "name": "gaggle",
+        "authors": [
+            {
+                "name": "Ben Ng",
+                "twitter": "_benng"
+            }
+        ],
+        "language": "Javascript",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/brpc/braft",
+        "name": "braft",
+        "authors": [
+            {
+                "name": "Zhangyi Chen"
+            },
+            {
+                "name": "Yao Wang"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/bspolley/raft",
+        "name": "bspolley/raft",
+        "authors": [
+            {
+                "name": "Alex Kaiser"
+            },
+            {
+                "name": "Brennan Polley"
+            },
+            {
+                "name": "Helen Weng"
+            }
+        ],
+        "language": "Bloom",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/buckie/juno",
+        "name": "Juno",
+        "authors": [
+            {
+                "name": "Brian Schroeder",
+                "twitter": "bschroed"
+            },
+            {
+                "name": "Libby Kent",
+                "github": "libby"
+            },
+            {
+                "name": "Stuart Popejoy",
+                "twitter": "SirLensALot"
+            },
+            {
+                "name": "Will Martino",
+                "github": "buckie"
+            }
+        ],
+        "language": "Haskell",
+        "license": "BSD",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/burma-shave/chelan",
+        "name": "chelan",
+        "authors": [
+            {
+                "name": "Eric Jutrzenka",
+                "twitter": "burma5have"
+            }
+        ],
+        "language": "Scala",
+        "license": "N/A",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/cannedprimates/huckleberry",
+        "name": "huckleberry",
+        "authors": [
+            {
+                "name": "Jakob Sievers",
+                "twitter": "cannedprimates"
+            }
+        ],
+        "language": "Erlang",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/canonical/raft",
+        "name": "canonical/raft",
+        "authors": [
+            {
+                "name": "Free Ekanayaka",
+                "github": "freeekanayaka"
+            }
+        ],
+        "language": "C",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/cb372/raft",
+        "name": "cb372/raft",
+        "authors": [
+            {
+                "name": "Chris Birchall",
+                "twitter": "cbirchall"
+            }
+        ],
+        "language": "Scala",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/celluloid/floss",
+        "name": "floss",
+        "authors": [
+            {
+                "name": "Alexander Flatter",
+                "twitter": "aflatter"
+            }
+        ],
+        "language": "Ruby",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/chicm/CmRaft",
+        "name": "chicm/CmRaft",
+        "authors": [
+            {
+                "name": "Cheng Min Chi"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/cloud-software-foundation/c5-replicator",
+        "name": "C5 replicator",
+        "authors": [
+            {
+                "name": "Ryan Rawson",
+                "twitter": "ryanobjc"
+            },
+            {
+                "name": "Alex Newman",
+                "twitter": "posix4e"
+            },
+            {
+                "name": "Josh Greenberg",
+                "github": "joshua-g"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/coreos/etcd",
+        "name": "etcd/raft",
+        "authors": [
+            {
+                "name": "Blake Mizerany"
+            },
+            {
+                "name": "Xiang Li"
+            },
+            {
+                "name": "Yicheng Qin"
+            }
+        ],
+        "language": "Go",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/dannycoates/raft-core",
+        "name": "dannycoates/raft-core",
+        "authors": [
+            {
+                "name": "Danny Coates",
+                "twitter": "antiserf"
+            }
+        ],
+        "language": "Javascript",
+        "license": "BSD",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/dataleading/easyRaft",
+        "name": "dataleading/easyRaft",
+        "authors": [
+            {
+                "name": "Shanliang Shen",
+                "github": "dataleading"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/dengoswei/d-raft",
+        "name": "d-raft",
+        "authors": [
+            {
+                "name": "Dengos Wei"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/dev-urandom/graft",
+        "name": "graft",
+        "authors": [
+            {
+                "name": "Ben Mills",
+                "twitter": "benemills"
+            },
+            {
+                "name": "William Dix",
+                "twitter": "williamjdix"
+            }
+        ],
+        "language": "Go",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/devatwork/NRaft",
+        "name": "NRaft",
+        "authors": [
+            {
+                "name": "Bert Willems",
+                "organization": "Premotion"
+            }
+        ],
+        "language": "C#",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/dreyk/zraft_lib",
+        "name": "zraft_lib",
+        "authors": [
+            {
+                "name": "Gunin Alexander"
+            }
+        ],
+        "language": "Erlang",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/drpicox/uoc-raft-2013p",
+        "name": "drpicox/uoc-raft-2013p",
+        "authors": [
+            {
+                "name": "David Rodenas",
+                "twitter": "drpicox"
+            }
+        ],
+        "language": "Java",
+        "license": "GPL-3.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/dupdob/RAFTiNG",
+        "name": "dupdob/RAFTiNG",
+        "authors": [
+            {
+                "name": "Cyrille Dupuydauby"
+            }
+        ],
+        "language": "C#",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/dushyant89/raft-angular",
+        "name": "raft-angular",
+        "authors": [
+            {
+                "name": "Dushyant Sabharwal"
+            }
+        ],
+        "language": "Angular 4",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/ebay/nuraft",
+        "name": "NuRaft",
+        "authors": [
+            {
+                "name": "Jung-Sang Ahn",
+                "github": "greensky00"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/echaozh/cppa-raft",
+        "name": "cppa-raft",
+        "authors": [
+            {
+                "name": "Zhang Yichao"
+            }
+        ],
+        "language": "C++",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/ericmoritz/rafterl",
+        "name": "rafterl",
+        "authors": [
+            {
+                "name": "Eric Moritz",
+                "twitter": "ericmoritz"
+            }
+        ],
+        "language": "Erlang",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/evanphx/zodiac-prime",
+        "name": "zodiac-prime",
+        "authors": [
+            {
+                "name": "Evan Phoenix",
+                "twitter": "evanphx"
+            }
+        ],
+        "language": "Ruby",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/filipecampos/raft4ws",
+        "name": "Raft4WS",
+        "authors": [
+            {
+                "name": "Filipe Campos"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/fxsjy/ins",
+        "name": "fxsjy/Ins",
+        "authors": [
+            {
+                "name": "Junyi Sun"
+            }
+        ],
+        "language": "C++",
+        "license": "BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/goraft/raft",
+        "name": "go-raft",
+        "authors": [
+            {
+                "name": "Ben Johnson ",
+                "twitter": "benbjohnson"
+            },
+            {
+                "name": "Xiang Li",
+                "twitter": "xiangli0227"
+            },
+            {
+                "name": "CoreOS)"
+            }
+        ],
+        "language": "Go",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/guille/RaftCore",
+        "name": "RaftCore",
+        "authors": [
+            {
+                "name": "Guillermo Rodr\u00edguez",
+                "github": "guille"
+            }
+        ],
+        "language": "C#",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/haf/Flotten",
+        "name": "Flotten",
+        "authors": [
+            {
+                "name": "Henrik Feldt",
+                "twitter": "henrikfeldt"
+            }
+        ],
+        "language": "F#",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/harryw/raft",
+        "name": "harryw/raft",
+        "authors": [
+            {
+                "name": "Harry Wilkinson",
+                "twitter": "harwilk"
+            }
+        ],
+        "language": "Ruby",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/hashicorp/raft",
+        "name": "hashicorp/raft",
+        "authors": [
+            {
+                "name": "Armon Dadgar",
+                "twitter": "armon"
+            }
+        ],
+        "language": "Go",
+        "license": "MPL-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/hazelcast/hazelcast",
+        "directory": "hazelcast/src/main/java/com/hazelcast/cp/internal/raft/",
+        "name": "hazelcast-raft",
+        "authors": [
+            {
+                "name": "Mehmet Dogan",
+                "github": "mdogan"
+            },
+            {
+                "name": "Ensar Basri Kahveci",
+                "github": "metanet"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/heidi-ann/ocaml-raft",
+        "name": "ocaml-raft",
+        "authors": [
+            {
+                "name": "Heidi Howard",
+                "twitter": "heidiann360"
+            }
+        ],
+        "language": "OCaml",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/hortonworks/ratis",
+        "name": "Ratis",
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/huntlabs/hunt-raft",
+        "name": "huntlabs/hunt-raft",
+        "authors": [
+            {
+                "name": "huntlabs"
+            }
+        ],
+        "language": "D",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/huy/yora",
+        "name": "yora",
+        "authors": [
+            {
+                "name": "Huy Le",
+                "twitter": "lehuy20"
+            }
+        ],
+        "language": "Ruby",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/jalvaro/raft",
+        "name": "jalvaro/raft",
+        "authors": [
+            {
+                "name": "Jordi Alvaro"
+            }
+        ],
+        "language": "Java",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/kaarelk/r4j",
+        "name": "r4j",
+        "authors": [
+            {
+                "name": "Kaarel Kann"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/kanaka/raft.js",
+        "name": "kanaka/raft.js",
+        "authors": [
+            {
+                "name": "Joel Martin",
+                "twitter": "bus_kanaka"
+            }
+        ],
+        "language": "Javascript",
+        "license": "MPL-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/kjnilsson/fsraft",
+        "name": "fsraft",
+        "authors": [
+            {
+                "name": "Karl-Johan Nilsson",
+                "twitter": "kjnilsson"
+            }
+        ],
+        "language": "F#",
+        "license": "Unlicense",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/komamitsu/oraft",
+        "name": "ORaft",
+        "authors": [
+            {
+                "name": "Mitsunori Komatsu",
+                "twitter": "komamitsu_tw"
+            }
+        ],
+        "language": "OCaml",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/kristianmitk/rasp",
+        "name": "rasp",
+        "authors": [
+            {
+                "name": "Kristian Br\u00fcnn",
+                "homepage": "https://kristianbrunn.com/"
+            }
+        ],
+        "language": "C/C++ (Arduino)",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/ktoso/akka-raft",
+        "name": "akka-raft",
+        "authors": [
+            {
+                "name": "Konrad Malawski",
+                "twitter": "ktosopl"
+            }
+        ],
+        "language": "Scala",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/kurin/py-raft",
+        "name": "py-raft",
+        "authors": [
+            {
+                "name": "Toby Burress"
+            }
+        ],
+        "language": "Python",
+        "license": "Unlicense",
+        "features": {
+            "basic": false,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/lionelbarrow/seaturtles",
+        "name": "seaturtles",
+        "authors": [
+            {
+                "name": "Lionel Barrow",
+                "twitter": "LionelBarrow"
+            }
+        ],
+        "language": "Go",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/lisael/aioraft",
+        "name": "aioraft",
+        "authors": [
+            {
+                "name": "lisael"
+            }
+        ],
+        "language": "Python",
+        "license": "AGPL-3.0+",
+        "features": {
+            "basic": false,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/lni/dragonboat",
+        "name": "dragonboat",
+        "authors": [
+            {
+                "name": "Lei Ni",
+                "github": "lni"
+            }
+        ],
+        "language": "Go",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/logcabin/logcabin",
+        "name": "LogCabin",
+        "authors": [
+            {
+                "name": "Diego Ongaro",
+                "twitter": "ongardie"
+            }
+        ],
+        "language": "C++",
+        "license": "ISC",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/meatcompute/raft-consensus",
+        "name": "meatcompute/raft-consensus",
+        "authors": [
+            {
+                "name": "Mikaela Patella",
+                "twitter": "meatcomputer"
+            }
+        ],
+        "language": "Clojure",
+        "license": "EPL-1.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/methk/RaftShop",
+        "name": "RaftShop",
+        "authors": [
+            {
+                "name": "Matteo Berti",
+                "github": "methk"
+            },
+            {
+                "name": "Arnaldo Cesco ",
+                "homepage": "https://gitlab.com/annopaolo"
+            },
+            {
+                "name": "Salvatore Fiorilla",
+                "github": "Salvo000"
+            }
+        ],
+        "language": "Jolie",
+        "license": "LGPL",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/mgodave/barge",
+        "name": "barge",
+        "authors": [
+            {
+                "name": "Dave Rusek",
+                "twitter": "davidjrusek"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/mreiferson/pontoon",
+        "name": "pontoon",
+        "authors": [
+            {
+                "name": "Matt Reiferson",
+                "twitter": "imsnakes"
+            }
+        ],
+        "language": "Go",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/mururu/rafute",
+        "name": "rafute",
+        "authors": [
+            {
+                "name": "Yuki Ito",
+                "twitter": "mururururu"
+            }
+        ],
+        "language": "Elixir",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/nackstein/lite-raft",
+        "name": "lite-raft",
+        "authors": [
+            {
+                "name": "Luigi Tarenga"
+            }
+        ],
+        "language": "Shell",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/noeleo/raft",
+        "name": "noeleo/raft",
+        "authors": [
+            {
+                "name": "Noel Moldvai"
+            },
+            {
+                "name": "Rohit Turumella"
+            },
+            {
+                "name": "Josh Muhlfelder"
+            },
+            {
+                "name": "James Butkovic"
+            }
+        ],
+        "language": "Bloom",
+        "license": "BSD-2-Clause",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/opaugam/rsm",
+        "name": "RSM",
+        "authors": [
+            {
+                "name": "Olivier Paugam",
+                "github": "opaugam"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/opendaylight/controller",
+        "name": "OpenDaylight",
+        "authors": [
+            {
+                "name": "Moiz Raja"
+            },
+            {
+                "name": "Kamal Rameshan"
+            },
+            {
+                "name": "Robert Varga",
+                "organization": "Cisco"
+            },
+            {
+                "name": "Tom Pantelis",
+                "organization": "Brocade"
+            }
+        ],
+        "language": "Java",
+        "license": "EPL-1.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/pablosmedina/ckite",
+        "name": "ckite",
+        "authors": [
+            {
+                "name": "Pablo Medina",
+                "twitter": "pablosmedina"
+            }
+        ],
+        "language": "Scala",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/permazen/permazen",
+        "directory": "permazen/permazen-kv-raft/",
+        "name": "Permazen/RaftKVDatabase",
+        "authors": [
+            {
+                "name": "Archie Cobbs"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/peterbourgon/raft",
+        "name": "peterbourgon/raft",
+        "authors": [
+            {
+                "name": "Peter Bourgon",
+                "twitter": "peterbourgon"
+            }
+        ],
+        "language": "Go",
+        "license": "BSD-2-Clause",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/pgte/skiff-algorithm",
+        "name": "skiff",
+        "authors": [
+            {
+                "name": "Pedro Teixeira",
+                "twitter": "pgte"
+            }
+        ],
+        "language": "Javascript",
+        "license": "ISC",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/pingcap/tikv",
+        "name": "TiKV",
+        "authors": [
+            {
+                "name": "Jay",
+                "github": "BusyJay"
+            },
+            {
+                "name": "ngaut",
+                "github": "ngaut"
+            },
+            {
+                "name": "siddontang",
+                "twitter": "siddontang"
+            },
+            {
+                "name": "tiancaiamao",
+                "github": "tiancaiamao"
+            }
+        ],
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/ppLorins/aurora",
+        "name": "aurora",
+        "authors": [
+            {
+                "name": "arthur",
+                "github": "ppLorins"
+            }
+        ],
+        "language": "C++",
+        "license": "GPL-3.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/pvilas/raft",
+        "name": "pvilas/raft",
+        "authors": [
+            {
+                "name": "Pere Vilas",
+                "twitter": "perevilas"
+            }
+        ],
+        "language": "Java",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/rabbitmq/ra",
+        "name": "Ra",
+        "authors": [
+            {
+                "name": "Team RabbitMQ",
+                "twitter": "rabbitmq"
+            }
+        ],
+        "language": "erlang",
+        "license": "(Apache-2.0 OR MPL-1.1)",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/rethinkdb/rethinkdb",
+        "name": "RethinkDB",
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/rodriguezvalencia/rafting",
+        "name": "rodriguezvalencia/rafting",
+        "authors": [
+            {
+                "name": "Sergio Rodriguez"
+            }
+        ],
+        "language": "Clojure",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/saebyn/raft",
+        "name": "raft-clj",
+        "authors": [
+            {
+                "name": "John Weaver"
+            }
+        ],
+        "language": "Clojure",
+        "license": "EPL-1.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/sakno/dotNext",
+        "directory": "src/cluster/",
+        "name": ".NEXT Raft",
+        "authors": [
+            {
+                "name": "Roman Sakno",
+                "github": "sakno"
+            }
+        ],
+        "language": "C#",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/santhosh-tekuri/raft",
+        "name": "santhosh-tekuri/raft",
+        "authors": [
+            {
+                "name": "Santhosh Kumar Tekuri",
+                "github": "santhosh-tekuri"
+            }
+        ],
+        "language": "Go",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/scalecube/raft-leader-election",
+        "name": "ScaleCube Raft Leader Election",
+        "authors": [
+            {
+                "name": "ScaleCube"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/simonacca/zatt",
+        "name": "Zatt",
+        "authors": [
+            {
+                "name": "Simon Accascina"
+            }
+        ],
+        "language": "Python",
+        "license": "AGPL-3.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/srned/Prez",
+        "name": "srned/Prez",
+        "authors": [
+            {
+                "name": "Sureshkumar Nedunchezhian"
+            }
+        ],
+        "language": "C",
+        "license": "BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/stepist/scalaraft",
+        "name": "scalaraft",
+        "authors": [
+            {
+                "name": "Kim Je Min"
+            }
+        ],
+        "language": "Scala",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/streed/simpleRaft",
+        "name": "simpleRaft",
+        "authors": [
+            {
+                "name": "Sean Reed"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/tetrapods/raft",
+        "name": "tetrapods/raft",
+        "authors": [
+            {
+                "name": "Aaron Davidson",
+                "twitter": "artichikin"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/tkellogg/Raft-JVM",
+        "name": "Raft-JVM",
+        "authors": [
+            {
+                "name": "Tim Kellogg",
+                "twitter": "kellogh"
+            }
+        ],
+        "language": "Java",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/trevorbernard/dinghy",
+        "name": "dinghy",
+        "authors": [
+            {
+                "name": "Trevor Bernard",
+                "twitter": "trevorbernard"
+            }
+        ],
+        "language": "Clojure",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/unshiftio/liferaft",
+        "name": "liferaft",
+        "authors": [
+            {
+                "name": "Arnout Kazemier",
+                "twitter": "3rdEden"
+            }
+        ],
+        "language": "Javascript",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/uwplse/verdi-raft",
+        "name": "verdi-raft",
+        "authors": [
+            {
+                "name": "James Wilcox",
+                "organization": "University of Washington"
+            },
+            {
+                "name": "Doug Woos",
+                "organization": "University of Washington"
+            },
+            {
+                "name": "Pavel Panchekha",
+                "organization": "University of Washington"
+            },
+            {
+                "name": "Zach Tatlock",
+                "organization": "University of Washington"
+            },
+            {
+                "name": "Xi Wang",
+                "organization": "University of Washington"
+            },
+            {
+                "name": "Mike Ernst",
+                "organization": "University of Washington"
+            },
+            {
+                "name": "Tom Anderson",
+                "organization": "University of Washington"
+            }
+        ],
+        "language": "Coq",
+        "license": "BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/vanstee/draft",
+        "name": "draft",
+        "authors": [
+            {
+                "name": "Patrick Van Stee",
+                "twitter": "vanstee"
+            }
+        ],
+        "language": "Elixir",
+        "license": "N/A",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/vanstee/giraft",
+        "name": "giraft",
+        "authors": [
+            {
+                "name": "Patrick Van Stee",
+                "twitter": "vanstee"
+            }
+        ],
+        "language": "Ruby",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/viile/raftDlang",
+        "name": "viile/raft",
+        "authors": [
+            {
+                "name": "viile"
+            }
+        ],
+        "language": "D",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/wayoutmind/melee",
+        "name": "melee",
+        "authors": [
+            {
+                "name": "Fredrick Galoso",
+                "twitter": "wayoutmind"
+            }
+        ],
+        "language": "Clojure",
+        "license": "EPL-1.0",
+        "features": {
+            "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/wenweihu86/raft-java",
+        "name": "raft-java",
+        "authors": [
+            {
+                "name": "Wenwei Hu"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/willemt/raft",
+        "name": "willemt/raft",
+        "authors": [
+            {
+                "name": "Willem-Hendrik Thiart",
+                "twitter": "willemht"
+            }
+        ],
+        "language": "C",
+        "license": "BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/xingyif/raft",
+        "name": "xingyif/raft",
+        "authors": [
+            {
+                "name": "Yifan Xing"
+            }
+        ],
+        "language": "Python",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/xnnyygn/xraft",
+        "name": "xraft",
+        "authors": [
+            {
+                "name": "XnnYygn",
+                "twitter": "XY8080"
+            }
+        ],
+        "language": "Java",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/yahoo/gondola",
+        "name": "Gondola",
+        "authors": [
+            {
+                "name": "Patrick Chan"
+            },
+            {
+                "name": "Wei-Cheng Pan"
+            }
+        ],
+        "language": "Java",
+        "license": "New BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/ylamgarchal/chillaxd",
+        "name": "Chillaxd",
+        "authors": [
+            {
+                "name": "Yassine Lamgarchal"
+            }
+        ],
+        "language": "Python",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/zhebrak/raftos",
+        "name": "raftos",
+        "authors": [
+            {
+                "name": "Alexander Zhebrak",
+                "github": "zhebrak"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/zhyzhyzhy/Rub-Raft",
+        "name": "Rub-Raft",
+        "authors": [
+            {
+                "name": "zhyzhyzhy",
+                "github": "zhyzhyzhy"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    }
+]

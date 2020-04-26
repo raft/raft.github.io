@@ -1,0 +1,99 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raft.github.io/implementation.schema.json",
+    "title": "Raft Implementation",
+    "description": "This file contains the schema describing a single Raft implementation.",
+    "type": "object",
+    "properties": {
+        "repoURL": {
+            "description": "URL pointing to base GitHub repo.",
+            "type": "string",
+            "pattern": "^https://github.com/([^/]+)/([^/]+)(?<!.git)$",
+            "format": "uri"
+        },
+        "directory": {
+            "description": "Optional path within Git repo where the Raft implementation is located.",
+            "type": "string",
+            "pattern": "^[^/].*/$"
+        },
+        "name": {
+            "description": "Implementation project name. If the project is referred to as 'Raft', disambiguate it.",
+            "type": "string",
+            "pattern": "^.+(?<!^[Rr][Aa][Ff][Tt])$"
+        },
+        "authors": {
+            "description": "List of primary authors (people). Try to keep this short.",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "Person's name (or alias).",
+                        "type": "string"
+                    },
+                    "twitter": {
+                        "description": "Author's public Twitter username (without the @).",
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9_]{1,15}$"
+                    },
+                    "github": {
+                        "description": "Author's GitHub username.",
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9]([A-Za-z0-9-]{0,37}[A-Za-z0-9]?)$"
+                    },
+                    "homepage": {
+                        "description": "Author's public home page.",
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "organization": {
+                        "description": "The author's affiliation for the project, such as an employer.",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name"
+                ],
+                "additionalProperties": false
+            },
+            "maxItems": 7
+        },
+        "language": {
+            "description": "Primary programming language for the implementation.",
+            "type": "string"
+        },
+        "license": {
+            "description": "SPDX license expression describing how the implementation may be used. See https://choosealicense.com/ or https://spdx.org/licenses/.",
+            "type": "string"
+        },
+        "features": {
+            "description": "Describe how complete the implementation is.",
+            "type": "object",
+            "properties": {
+                "basic": {
+                    "description": "The implementation handles leader election and log replication.",
+                    "type": "boolean"
+                },
+                "persistence": {
+                    "description": "The implementation safely persists the term and log to disk.",
+                    "type": "boolean"
+                },
+                "logCompaction": {
+                    "description": "The implementation does some form of log compaction, such as snapshotting.",
+                    "type": "boolean"
+                },
+                "membershipChanges": {
+                    "description": "The implementation can dynamically change the set of servers safely.",
+                    "type": "boolean"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "required": [
+        "name",
+        "repoURL",
+        "language"
+    ],
+    "additionalProperties": false
+}
