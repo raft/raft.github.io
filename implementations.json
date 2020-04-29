@@ -1668,7 +1668,8 @@
         "features": {
             "basic": true,
             "membershipChanges": true,
-            "logCompaction": false
+            "logCompaction": true,
+            "persistence": true
         }
     },
     {
