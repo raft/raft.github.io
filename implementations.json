@@ -116,6 +116,24 @@
             "logCompaction": false
         }
     },
+        {
+        "repoURL": "https://github.com/RedisLabs/redisraft",
+        "name": "RedisRaft",
+        "authors": [
+            {
+                "name": "Redis Labs",
+                "github": "RedisLabs"
+            }
+        ],
+        "language": "C",
+        "license": "(AGPL-3.0 OR RSAL)",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
     {
         "repoURL": "https://github.com/Waqee/Raft-php",
         "name": "Raft-php",
