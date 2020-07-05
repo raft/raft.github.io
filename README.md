@@ -1,7 +1,7 @@
 The Raft Consensus Algorithm
 ============================
 
-This is the repo for Raft website: https://raft.github.io
+This is the repo for the Raft website: https://raft.github.io
 
 Please contribute to the website by submitting pull requests (preferably) or
 creating issues. The most common way people contribute is by adding a new
