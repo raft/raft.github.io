@@ -30,4 +30,4 @@ so new implementations will initially appear at the bottom of the table for a
 few hours.
 
 This work is licensed under a Creative Commons Attribution 3.0 Unported License.
-See http://creativecommons.org/licenses/by/3.0/deed.en_US for details.
+See https://creativecommons.org/licenses/by/3.0/deed.en_US for details.
