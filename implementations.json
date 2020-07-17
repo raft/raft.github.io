@@ -2105,5 +2105,22 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/qdoop/fz0raft",
+        "name": "fz0raft",
+        "authors": [
+            {
+                "name": "Evangelos Tsamis",
+                "github": "qdoop"
+            }
+        ],
+        "language": "F#",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true
+        }
     }
 ]
