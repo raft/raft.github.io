@@ -2122,5 +2122,22 @@
             "logCompaction": true,
             "persistence": true
         }
-    }
+    },
+    {
+        "repoURL": "https://github.com/EmanueleGallone/RaftUDP",
+        "name": "RaftUDP",
+        "authors": [
+            {
+                "name": "Emanuele Gallone",
+                "github": "EmanueleGallone"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+	}
 ]
