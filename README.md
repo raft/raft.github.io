@@ -17,11 +17,16 @@ pip3 install jsonschema
 ```
 
 The website is hosted as a GitHub static page at <https://raft.github.io>. To
-run it locally, start a local static webserver:
+run it locally, make sure you've checked out all the submodules:
+```
+git submodule update --init --recursive
+```
+
+Then start a local static webserver:
 ```
 python3 -m http.server 8000 --bind localhost
 ```
-and open <http://localhost:8080/>. The server is needed to allow `index.html` to
+and open <http://localhost:8000/>. The server is needed to allow `index.html` to
 pull down `implementations.json`.
 
 The implementations are sorted on the website according to GitHub stars and last
