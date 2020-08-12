@@ -106,6 +106,9 @@ $(function() {
 blockquote p {
   font-size: inherit;
 }
+a {
+  color: #000099;
+}
     </style>
 
     <title>Raft Consensus Algorithm</title>
@@ -126,7 +129,7 @@ blockquote p {
         <div class="col-md-4 col-md-push-8">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Quick Links</h3>
+              <h1 class="panel-title">Quick Links</h1>
             </div>
             <div class="panel-body">
               <ul class="nav nav-pills nav-stacked">
@@ -140,7 +143,7 @@ blockquote p {
         <div class="col-md-8 col-md-pull-4">
 
 <a name="overview"></a>
-<h3>What is Raft?</h3>
+<h2>What is Raft?</h2>
 
 <p>
 Raft is a consensus algorithm that is designed to be easy to understand. It's
@@ -153,7 +156,7 @@ available today.
 </p>
 
 
-<h3>Hold on&mdash;what is consensus?</h3>
+<h2>Hold on&mdash;what is consensus?</h2>
 
 <p>
 Consensus is a fundamental problem in fault-tolerant distributed systems.
@@ -187,7 +190,7 @@ produces the same series of results and arrives at the same series of states.
     <div>
 
 <a name="raftscope"></a>
-<h3>Raft Visualization</h3>
+<h2>Raft Visualization</h2>
 
 <p>
 Here's a Raft cluster running in your browser. You can interact with it to see
@@ -197,7 +200,7 @@ visualization (<a href="https://github.com/ongardie/raftscope">RaftScope</a>)
 is still pretty rough around the edges; pull requests would be very welcome.
 </p>
 
-<iframe src="raftscope/index.html" style="border: 0; width: 800px; height: 580px; margin-bottom: 20px"></iframe>
+<iframe src="raftscope/index.html" title="raft visualization" aria-hidden="true" style="border: 0; width: 800px; height: 580px; margin-bottom: 20px"></iframe>
 
 <p>
 <a href="http://thesecretlivesofdata.com/raft/">The Secret Lives of Data</a>
@@ -206,7 +209,7 @@ it may be a gentler starting point.
 </p>
 
 <a name="pubs"></a>
-<h3>Publications</h3>
+<h2>Publications</h2>
 
 <p>
 This is "the Raft paper", which describes Raft in detail:
@@ -289,7 +292,7 @@ it includes a simpler cluster membership change algorithm.
 </ul>
 
 <a name="talks"></a>
-<h3>Talks</h3>
+<h2>Talks</h2>
 
 <p>
 These talks serve as good introductions to Raft:
@@ -608,7 +611,7 @@ These talks serve as good introductions to Raft:
 </ul>
 
 <a name="courses"></a>
-<h3>Courses teaching Raft</h3>
+<h2>Courses teaching Raft</h2>
 
 <p>
 This is a list of courses that include lectures or programming assignments on Raft.
@@ -793,7 +796,7 @@ or an issue to update it.
 </ul>
 
 
-<h3>Where can I ask questions?</h3>
+<h2>Where can I ask questions?</h2>
 
 <p>
 The best place to ask questions about Raft and its implementations is the
@@ -802,7 +805,7 @@ Some of the implementations also have their own mailing lists; check their READM
 </p>
 
 <a name="implementations"></a>
-<h3>Where can I get Raft?</h3>
+<h2>Where can I get Raft?</h2>
 
 <p>
 There are many implementations of Raft available in various stages of
