@@ -17,6 +17,23 @@
         }
     },
     {
+        "repoURL": "https://github.com/EmanueleGallone/RaftUDP",
+        "name": "RaftUDP",
+        "authors": [
+            {
+                "name": "Emanuele Gallone",
+                "github": "EmanueleGallone"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
         "repoURL": "https://github.com/Hoverbear/raft",
         "name": "hoverbear/raft",
         "authors": [
