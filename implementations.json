@@ -151,6 +151,24 @@
             "persistence": true
         }
     },
+	{
+        "repoURL": "https://github.com/scaars10/pecan-raft",
+        "name": "PecanRaft",
+        "authors": [
+            {
+                "name": "Priyanshu Sharma",
+                "github": "scaars10"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
     {
         "repoURL": "https://github.com/Waqee/Raft-php",
         "name": "Raft-php",
