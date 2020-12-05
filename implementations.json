@@ -1544,6 +1544,24 @@
             "logCompaction": false
         }
     },
+	{
+		"repoURL": "https://github.com/pi-projects/praft",
+        "name": "PRaft",
+        "authors": [
+			{
+				"name": "Buqing Ma",
+				"github": "laomafeima"
+			}
+		],
+		"language": "Python",
+		"license": "BSD",
+		"features": {
+			"basic": true,
+			"membershipChanges": true,
+			"logCompaction": true,
+			"persistence": true
+		}
+	},
     {
         "repoURL": "https://github.com/pgte/skiff-algorithm",
         "name": "skiff",
