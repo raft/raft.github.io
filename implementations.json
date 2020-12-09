@@ -380,6 +380,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/async-raft/async-raft",
+        "name": "async-raft",
+        "authors": [
+            {
+                "name": "Anthony Dodd",
+                "github": "thedodd"
+            }
+        ],
+        "language": "Rust",
+        "license": "Apache-2.0 or MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/atomix/copycat",
         "name": "copycat",
         "authors": [
