@@ -204,6 +204,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/akiradeveloper/lol",
+        "name": "akiradeveloper/lol",
+        "authors": [
+            {
+                "name": "Akira Hayakawa",
+                "github": "akiradeveloper"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/alipay/sofa-jraft",
         "name": "SOFAJRaft",
         "authors": [
