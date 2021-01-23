@@ -304,7 +304,7 @@
         }
     },
     {
-        "repoURL": "https://github.com/andy-yx-chen/cornerstone",
+        "repoURL": "https://github.com/datatechnology/cornerstone",
         "name": "Cornerstone",
         "authors": [
             {
@@ -321,7 +321,7 @@
         }
     },
     {
-        "repoURL": "https://github.com/andy-yx-chen/jraft",
+        "repoURL": "https://github.com/datatechnology/jraft",
         "name": "jraft",
         "authors": [
             {
