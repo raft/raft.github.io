@@ -304,40 +304,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/datatechnology/cornerstone",
-        "name": "Cornerstone",
-        "authors": [
-            {
-                "name": "Andy Chen"
-            }
-        ],
-        "language": "C++",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/datatechnology/jraft",
-        "name": "jraft",
-        "authors": [
-            {
-                "name": "Andy Chen"
-            }
-        ],
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/apache/incubator-kudu",
         "name": "Kudu",
         "authors": [
@@ -738,6 +704,40 @@
             "basic": true,
             "membershipChanges": false,
             "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/datatechnology/cornerstone",
+        "name": "Cornerstone",
+        "authors": [
+            {
+                "name": "Andy Chen"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/datatechnology/jraft",
+        "name": "jraft",
+        "authors": [
+            {
+                "name": "Andy Chen"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
         }
     },
     {
