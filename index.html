@@ -109,6 +109,11 @@ blockquote p {
 a {
   color: #000099;
 }
+img:-moz-loading {
+  /* This is a workaround for flashing alt text in Firefox:
+     https://bugzilla.mozilla.org/show_bug.cgi?id=1472637. */
+  visibility: hidden;
+}
     </style>
 
     <title>Raft Consensus Algorithm</title>
@@ -119,7 +124,7 @@ a {
     <div class="container" style="margin-top: 50px">
       <h1>
         The Raft Consensus Algorithm
-        <img src="logo/annie-solo.png" alt="" style="width: 200px; height: 190px; margin: -40px auto;" />
+        <img src="logo/annie-solo.png" alt="Raft logo" style="width: 200px; height: 190px; margin: -40px auto;" />
       </h1>
     </div>
 
@@ -479,7 +484,7 @@ These talks serve as good introductions to Raft:
       </tr>
       <tr>
         <td>Slides</td>
-        <td><a href="raftscope-replay/index.html">RaftScope visualization</a></a>
+        <td><a href="raftscope-replay/index.html">RaftScope visualization</a></td>
       </tr>
     </table>
   </li>
@@ -627,7 +632,7 @@ or an issue to update it.
     <a href="https://www.cse.cuhk.edu.hk">The Chinese University of Hong Kong</a>,
     <a href="https://piazza.com/class/kicgvsku8ul6ro">CSCI4160: Distributed and Parallel Computing</a> (Private),
     <a href="https://appsrv.cse.cuhk.edu.hk/~ericlo/">Eric Lo</a>.
-    Includes lecture on Paxos and Raft as well as <a href="https://github.com/eric-lo/csci4160-asgn1">Raft programming assignment</a> in Java/Go 
+    Includes lecture on Paxos and Raft as well as <a href="https://github.com/eric-lo/csci4160-asgn1">Raft programming assignment</a> in Java/Go
     (Fall 2019, Spring 2021, ...)
   </li>
 
@@ -852,11 +857,14 @@ update time.
     <!-- FOOTER  -->
     <div class="container footer">
       <hr />
-      <p>
-      Published with <a href="https://pages.github.com">GitHub Pages</a>.
-      <a href="https://github.com/raft/raft.github.io">View on GitHub</a>.<br />
-      This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
-      </p>
+      <footer>
+        <p>
+          Published with <a href="https://pages.github.com">GitHub Pages</a>.
+          <a href="https://github.com/raft/raft.github.io">View on GitHub</a>.<br />
+          This work is licensed under a
+          <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+        </p>
+    </footer>
     </div>
 
   </body>
