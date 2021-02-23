@@ -1848,6 +1848,27 @@
         }
     },
     {
+        "repoURL": "https://github.com/simple-raft-rs/raft-rs",
+        "name": "simple-raft-rs",
+        "authors": [
+            {
+                "name": "jessa0",
+                "github": "jessa0"
+            },
+            {
+                "name": "Signal Messenger"
+            }
+        ],
+        "language": "Rust",
+        "license": "AGPL-3.0-or-later",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
         "repoURL": "https://github.com/srned/Prez",
         "name": "srned/Prez",
         "authors": [
