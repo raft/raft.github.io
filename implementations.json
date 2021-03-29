@@ -244,6 +244,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/alirezameskin/raft4s",
+        "name": "raft4s",
+        "authors": [
+            {
+                "name": "Alireza Meskin",
+                "github": "alirezameskin"
+            }
+        ],
+        "language": "Scala",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/allengeorge/libraft",
         "name": "allengeorge/libraft",
         "authors": [
