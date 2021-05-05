@@ -2250,5 +2250,23 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/nuoyimanaituling/xzwraft",
+        "name": "xzwRaft",
+        "authors": [
+            {
+                "name": "xzw",
+                "github": "xzw"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
     }
 ]
