@@ -1500,6 +1500,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/nuoyimanaituling/xzwraft",
+        "name": "xzwRaft",
+        "authors": [
+            {
+                "name": "xzw",
+                "github": "nuoyimanaituling"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/opaugam/rsm",
         "name": "RSM",
         "authors": [
@@ -2248,24 +2266,6 @@
             "basic": true,
             "membershipChanges": true,
             "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/nuoyimanaituling/xzwraft",
-        "name": "xzwRaft",
-        "authors": [
-            {
-                "name": "xzw",
-                "github": "nuoyimanaituling"
-            }
-        ],
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": false,
-            "logCompaction": false,
             "persistence": true
         }
     }
