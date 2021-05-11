@@ -2268,5 +2268,23 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/namasikanam/raft-spin",
+        "name": "Raft-SPIN",
+        "authors": [
+            {
+                "name": "Xingyu Xie",
+                "github": "namasikanam"
+            }
+        ],
+        "language": "PROMELA",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
     }
 ]
