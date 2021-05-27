@@ -2286,5 +2286,24 @@
             "logCompaction": true,
             "persistence": true
         }
-    }
+    },
+	{
+		 "repoURL": "https://github.com/variflight/feeyo-raft",
+         "name": "feeyo-raft",
+         "authors": [
+             {
+                 "name": "zhuaming",
+                 "github": "zhuam"
+             }
+		 ],
+         "language": "Java",
+         "license": "BSD-3-Clause",
+         "features": {
+             "basic": true,
+             "membershipChanges": true,
+             "logCompaction": true,
+             "persistence": true
+		}
+	}
 ]
+
