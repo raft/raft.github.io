@@ -133,7 +133,7 @@
             "logCompaction": false
         }
     },
-        {
+    {
         "repoURL": "https://github.com/RedisLabs/redisraft",
         "name": "RedisRaft",
         "authors": [
@@ -1850,7 +1850,7 @@
             "persistence": true
         }
     },
-	{
+    {
         "repoURL": "https://github.com/scaars10/pecan-raft",
         "name": "PecanRaft",
         "authors": [

@@ -16,6 +16,10 @@ you want to run it locally, you'll need the
 pip3 install jsonschema
 ```
 
+You can use a Python virtual environment if you are unable to or don't want to
+install jsonschema globally. See <https://docs.python.org/3/tutorial/venv.html>
+for instructions.
+
 The website is hosted as a GitHub static page at <https://raft.github.io>. To
 run it locally, make sure you've checked out all the submodules:
 ```
