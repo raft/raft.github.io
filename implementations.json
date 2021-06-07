@@ -2288,14 +2288,14 @@
         }
     },
 	{
-		 "repoURL": "https://github.com/variflight/feeyo-raft",
+         "repoURL": "https://github.com/variflight/feeyo-raft",
          "name": "feeyo-raft",
          "authors": [
              {
-                 "name": "zhuaming",
+                 "name": "AMing Zhu",
                  "github": "zhuam"
              }
-		 ],
+         ],
          "language": "Java",
          "license": "BSD-3-Clause",
          "features": {
@@ -2303,7 +2303,7 @@
              "membershipChanges": true,
              "logCompaction": true,
              "persistence": true
-		}
-	}
+         }
+     }
 ]
 
