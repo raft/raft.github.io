@@ -2299,7 +2299,7 @@
         "language": "Java",
         "license": "BSD-3-Clause",
         "features": {
-			"basic": true,
+            "basic": true,
             "membershipChanges": true,
             "logCompaction": true,
             "persistence": true
