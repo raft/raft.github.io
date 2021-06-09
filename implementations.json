@@ -1798,6 +1798,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/royaltm/node-zmq-raft",
+        "name": "\u00d8MQ Raft for node.js",
+        "authors": [
+            {
+                "name": "Rafa\u0142 Michalski",
+                "github": "royaltm"
+            }
+        ],
+        "language": "Javascript",
+        "license": "LGPL-3.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/saebyn/raft",
         "name": "raft-clj",
         "authors": [
