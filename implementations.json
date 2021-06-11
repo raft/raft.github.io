@@ -813,6 +813,25 @@
         }
     },
     {
+        "repoURL": "https://github.com/dotnet/dotNext",
+        "directory": "src/cluster/",
+        "name": ".NEXT Raft",
+        "authors": [
+            {
+                "name": "Roman Sakno",
+                "github": "sakno"
+            }
+        ],
+        "language": "C#",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/dreyk/zraft_lib",
         "name": "zraft_lib",
         "authors": [
@@ -1829,25 +1848,6 @@
             "basic": false,
             "membershipChanges": false,
             "logCompaction": false
-        }
-    },
-    {
-        "repoURL": "https://github.com/sakno/dotNext",
-        "directory": "src/cluster/",
-        "name": ".NEXT Raft",
-        "authors": [
-            {
-                "name": "Roman Sakno",
-                "github": "sakno"
-            }
-        ],
-        "language": "C#",
-        "license": "MIT",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
         }
     },
     {
