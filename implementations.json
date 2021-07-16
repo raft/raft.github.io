@@ -204,6 +204,27 @@
         }
     },
     {
+        "repoURL": "https://github.com/adsharma/raft",
+        "name": "python3-raft",
+        "authors": [
+            {
+                "name": "Arun Sharma",
+                "github": "adsharma"
+            },
+            {
+                "name": "Sean Reed"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": false,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/akiradeveloper/lol",
         "name": "akiradeveloper/lol",
         "authors": [
