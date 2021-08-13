@@ -1810,6 +1810,36 @@
         }
     },
     {
+        "repoURL": "https://github.com/real-logic/aeron",
+        "name": "Aeron Cluster",
+        "authors": [
+            {
+                "name": "Martin Thompson",
+                "github": "mjpt777"
+            },
+            {
+                "name": "Todd L. Montgomery",
+                "github": "tmontgomery"
+            },
+            {
+                "name": "Michael Barker",
+                "github": "mikeb01"
+            },
+            {
+                "name": "Dmitry Vyazelenko",
+                "github": "vyazelenko"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/rethinkdb/rethinkdb",
         "name": "RethinkDB",
         "language": "C++",
