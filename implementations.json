@@ -953,6 +953,32 @@
         }
     },
     {
+        "repoURL": "https://github.com/eraft-io/eraft",
+        "name": "eraft",
+        "authors": [
+            {
+                "name": "JieLiu",
+                "github": "LLiuJJ"
+            },
+            {
+                "name": "FengLin Zou",
+                "github": "fenglin-Zhou"
+            },
+            {
+                "name": "WeiZheng Wu",
+                "github": "WadeWuu"
+            }
+        ],
+        "language": "C++",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/ericmoritz/rafterl",
         "name": "rafterl",
         "authors": [
