@@ -71,6 +71,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/MicroRaft/MicroRaft",
+        "name": "MicroRaft",
+        "authors": [
+            {
+                "name": "Ensar Basri Kahveci",
+                "github": "metanet"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/NicolasT/kontiki",
         "name": "kontiki",
         "authors": [
