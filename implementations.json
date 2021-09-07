@@ -2024,6 +2024,44 @@
         }
     },
     {
+        "repoURL": "https://github.com/scylladb/scylla",
+        "name": "Seastar Raft",
+        "authors": [
+            {
+                "name": "Gleb Natapov",
+                "github": "gleb-cloudius"
+            },
+            {
+                "name": "Konstantin Osipov",
+                "github": "kostja"
+            },
+            {
+                "name": "Pavel Solodovnikov",
+                "github": "ManManson"
+            },
+            {
+                "name": "Alejo Sanchez",
+                "github": "alecco"
+            },
+            {
+                "name": "Kamil Braun",
+                "github": "kbr-"
+            },
+            {
+                "name": "Tomash Grabiec",
+                "github": "tgrabiec"
+            }
+        ],
+        "language": "C++20",
+        "license": "AGPL",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/simonacca/zatt",
         "name": "Zatt",
         "authors": [
