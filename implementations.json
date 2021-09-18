@@ -1212,6 +1212,12 @@
     {
         "repoURL": "https://github.com/apache/ratis",
         "name": "Ratis",
+        "authors": [
+            {
+                "name": "Tsz-Wo Nicholas Sze",
+                "github": "szetszwo"
+            }
+        ],
         "language": "Java",
         "license": "Apache-2.0",
         "features": {
