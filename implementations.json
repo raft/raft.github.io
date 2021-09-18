@@ -1210,14 +1210,15 @@
         }
     },
     {
-        "repoURL": "https://github.com/hortonworks/ratis",
+        "repoURL": "https://github.com/apache/ratis",
         "name": "Ratis",
         "language": "Java",
         "license": "Apache-2.0",
         "features": {
-            "basic": false,
+            "basic": true,
             "membershipChanges": false,
-            "logCompaction": false
+            "logCompaction": true,
+            "persistence": true
         }
     },
     {
