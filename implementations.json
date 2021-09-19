@@ -127,24 +127,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/apache/ratis",
-        "name": "Ratis",
-        "authors": [
-            {
-                "name": "Tsz-Wo (Nicholas) Sze",
-                "github": "szetszwo"
-            }
-        ],
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": false,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/Qihoo360/floyd",
         "name": "Qihoo360/raft",
         "authors": [
@@ -400,6 +382,24 @@
         "features": {
             "basic": true,
             "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/apache/ratis",
+        "name": "Ratis",
+        "authors": [
+            {
+                "name": "Tsz-Wo (Nicholas) Sze",
+                "github": "szetszwo"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
             "logCompaction": true,
             "persistence": true
         }
