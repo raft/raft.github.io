@@ -387,6 +387,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/apache/ratis",
+        "name": "Ratis",
+        "authors": [
+            {
+                "name": "Tsz-Wo (Nicholas) Sze",
+                "github": "szetszwo"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/archie/raft",
         "name": "archie/raft",
         "authors": [
@@ -1205,17 +1223,6 @@
         "license": "MIT",
         "features": {
             "basic": true,
-            "membershipChanges": false,
-            "logCompaction": false
-        }
-    },
-    {
-        "repoURL": "https://github.com/hortonworks/ratis",
-        "name": "Ratis",
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": false,
             "membershipChanges": false,
             "logCompaction": false
         }
