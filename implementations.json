@@ -399,7 +399,7 @@
         "license": "Apache-2.0",
         "features": {
             "basic": true,
-            "membershipChanges": false,
+            "membershipChanges": true,
             "logCompaction": true,
             "persistence": true
         }
