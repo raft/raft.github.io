@@ -2492,5 +2492,23 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/hhblaze/Raft.Net",
+        "name": "Raft.Net",
+        "authors": [
+            {
+                "name": "hhblaze@gmail.com",
+                "github": "hhblaze"
+            }
+        ],
+        "language": "C#",
+        "license": "BSD-2-Clause License",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
     }
 ]
