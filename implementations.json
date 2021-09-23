@@ -34,24 +34,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/hhblaze/Raft.Net",
-        "name": "Raft.Net",
-        "authors": [
-            {
-                "name": "hhblaze@gmail.com",
-                "github": "hhblaze"
-            }
-        ],
-        "language": "C#",
-        "license": "BSD-2-Clause License",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/Hoverbear/raft",
         "name": "hoverbear/raft",
         "authors": [
@@ -1243,6 +1225,24 @@
             "basic": true,
             "membershipChanges": false,
             "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/hhblaze/Raft.Net",
+        "name": "Raft.Net",
+        "authors": [
+            {
+                "name": "hhblaze@gmail.com",
+                "github": "hhblaze"
+            }
+        ],
+        "language": "C#",
+        "license": "BSD-2-Clause License",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
         }
     },
     {
