@@ -71,6 +71,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/LENSHOOD/go-raft",
+        "name": "LENSHOOD/go-raft",
+        "authors": [
+            {
+                "name": "Zhang Xuhai",
+                "github": "LENSHOOD"
+            }
+        ],
+        "language": "Go",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
         "repoURL": "https://github.com/MicroRaft/MicroRaft",
         "name": "MicroRaft",
         "authors": [
@@ -2509,24 +2527,6 @@
             "membershipChanges": true,
             "logCompaction": true,
             "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/LENSHOOD/go-raft",
-        "name": "LENSHOOD/go-raft",
-        "authors": [
-            {
-                "name": "Zhang Xuhai",
-                "github": "LENSHOOD"
-            }
-        ],
-        "language": "Go",
-        "license": "MIT",
-        "features": {
-            "basic": true,
-            "membershipChanges": false,
-            "logCompaction": false,
-            "persistence": false
         }
     }
 ]
