@@ -2247,6 +2247,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/tuannh982/sraft",
+        "name": "tuannh982/sraft",
+        "authors": [
+            {
+                "name": "Tuan Nguyen Huu",
+                "github": "tuannh982"
+            }
+        ],
+        "language": "Java",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
         "repoURL": "https://github.com/unshiftio/liferaft",
         "name": "liferaft",
         "authors": [
