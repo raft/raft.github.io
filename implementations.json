@@ -1007,6 +1007,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/eliben/raft",
+        "name": "eliben/raft",
+        "authors": [
+            {
+                "name": "Eli Bendersky",
+                "github": "eliben"
+            }
+        ],
+        "language": "Go",
+        "license": "Unlicense",
+        "features": {
+            "basic": true,
+            "persistence": true,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
         "repoURL": "https://github.com/eraft-io/eraft",
         "name": "eraft",
         "authors": [
