@@ -991,24 +991,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/eliben/raft",
-        "name": "raft",
-        "authors": [
-            {
-                "name": "Eli Bendersky",
-                "github": "eliben"
-            }
-        ],
-        "language": "Go",
-        "license": "Unlicense",
-        "features": {
-            "basic": true,
-            "persistence": true,
-            "membershipChanges": false,
-            "logCompaction": false
-        }
-    },
-    {
         "repoURL": "https://github.com/echaozh/cppa-raft",
         "name": "cppa-raft",
         "authors": [
@@ -1020,6 +1002,24 @@
         "license": "MIT",
         "features": {
             "basic": false,
+            "membershipChanges": false,
+            "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/eliben/raft",
+        "name": "eliben/raft",
+        "authors": [
+            {
+                "name": "Eli Bendersky",
+                "github": "eliben"
+            }
+        ],
+        "language": "Go",
+        "license": "Unlicense",
+        "features": {
+            "basic": true,
+            "persistence": true,
             "membershipChanges": false,
             "logCompaction": false
         }
