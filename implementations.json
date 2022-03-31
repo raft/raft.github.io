@@ -475,8 +475,8 @@
         }
     },
     {
-        "repoURL": "https://github.com/atomix/copycat",
-        "name": "copycat",
+        "repoURL": "https://github.com/atomix/atomix",
+        "name": "atomix",
         "authors": [
             {
                 "name": "Jordan Halterman",
