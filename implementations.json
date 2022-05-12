@@ -406,7 +406,7 @@
     },
     {
         "repoURL": "https://github.com/apache/ratis",
-        "name": "Ratis",
+        "name": "Apache Ratis",
         "authors": [
             {
                 "name": "Tsz-Wo (Nicholas) Sze",
