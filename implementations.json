@@ -2578,7 +2578,7 @@
         "license": "MIT",
         "features": {
             "basic": true,
-            "persistence": true
+            "persistence": true,
             "membershipChanges": true,
             "logCompaction": false
         }
