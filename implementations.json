@@ -1580,6 +1580,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/mind1949/raft",
+        "name": "mind1949/raft",
+        "authors": [
+            {
+                "name": "lianjie zhu",
+                "github": "mind1949"
+            }
+        ],
+        "language": "Go",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "persistence": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
         "repoURL": "https://github.com/mreiferson/pontoon",
         "name": "pontoon",
         "authors": [
@@ -2563,24 +2581,6 @@
             "membershipChanges": true,
             "logCompaction": true,
             "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/mind1949/raft",
-        "name": "mind1949/raft",
-        "authors": [
-            {
-                "name": "lianjie zhu",
-                "github": "mind1949"
-            }
-        ],
-        "language": "Go",
-        "license": "MIT",
-        "features": {
-            "basic": true,
-            "persistence": true,
-            "membershipChanges": true,
-            "logCompaction": false
         }
     }
 ]
