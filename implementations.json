@@ -2415,12 +2415,12 @@
         "name": "nebula-graph-storage",
         "authors": [
             {
-                "name": "Doodle",
-                "github": "critical27"
+                "name": "Sherman Ye",
+                "github": "sherman-the-tank"
             },
             {
-                "name": "dutor",
-                "github": "dutor"
+                "name": "Doodle Wang",
+                "github": "critical27"
             }
         ],
         "language": "C++",
