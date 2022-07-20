@@ -1007,6 +1007,28 @@
         }
     },
     {
+        "repoURL": "https://github.com/EdoardoV97/Raft-Omnet",
+        "name": "Raft-Omnet",
+        "authors": [
+            {
+                "name": "Edoardo Venir",
+                "github": "EdoardoV97"
+            },
+            {
+                "name": "Leonardo Ruzza",
+                "github": "LeonardoRuzza"
+            }
+        ],
+        "language": "Omnet++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "persistence": true,
+            "membershipChanges": true,
+            "logCompaction": true
+        }
+    },
+    {
         "repoURL": "https://github.com/eliben/raft",
         "name": "eliben/raft",
         "authors": [
