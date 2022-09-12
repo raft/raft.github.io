@@ -39,24 +39,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/lewiszlw/raft",
-        "name": "lewiszlw/raft",
-        "authors": [
-            {
-                "name": "Linwei Zhang",
-                "github": "lewiszlw"
-            }
-        ],
-        "language": "Rust",
-        "license": "MIT",
-        "features": {
-            "basic": true,
-            "persistence": true,
-            "membershipChanges": true,
-            "logCompaction": true
-        }
-    },
-    {
         "repoURL": "https://github.com/EmanueleGallone/RaftUDP",
         "name": "RaftUDP",
         "authors": [
@@ -1488,6 +1470,24 @@
             "membershipChanges": true,
             "logCompaction": false,
             "persistence": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/lewiszlw/raft",
+        "name": "lewiszlw/raft",
+        "authors": [
+            {
+                "name": "Linwei Zhang",
+                "github": "lewiszlw"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "persistence": true,
+            "membershipChanges": true,
+            "logCompaction": true
         }
     },
     {
