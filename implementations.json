@@ -505,7 +505,7 @@
                 "twitter": "definekuujo"
             }
         ],
-        "language": "Java",
+        "language": "Go",
         "license": "Apache-2.0",
         "features": {
             "basic": true,
