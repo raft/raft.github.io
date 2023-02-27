@@ -805,6 +805,28 @@
         }
     },
     {
+        "repoURL": "https://github.com/datafuselabs/openraft",
+        "name": "Openraft",
+        "authors": [
+            {
+                "name": "Yanpo Zhang",
+                "github": "drmingdrmer"
+            },
+            {
+                "name": "Anthony Dodd",
+                "github": "thedodd"
+            }
+        ],
+        "language": "Rust",
+        "license": "Apache-2.0 or MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/dataleading/easyRaft",
         "name": "dataleading/easyRaft",
         "authors": [
