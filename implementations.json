@@ -1,5 +1,23 @@
 [
     {
+        "repoURL": "https://github.com/42dot/foros",
+        "name": "foros",
+        "authors": [
+            {
+                "name": "Wonguk Jeong",
+                "github": "huchijwk"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/AChepurnoi/raft-kotlin",
         "name": "raft-kotlin",
         "authors": [
