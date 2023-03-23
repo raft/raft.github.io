@@ -497,15 +497,15 @@
         }
     },
     {
-        "repoURL": "https://github.com/atomix/atomix",
-        "name": "atomix",
+        "repoURL": "https://github.com/atomix/atomix-archive",
+        "name": "atomix (archived)",
         "authors": [
             {
                 "name": "Jordan Halterman",
                 "twitter": "definekuujo"
             }
         ],
-        "language": "Go",
+        "language": "Java",
         "license": "Apache-2.0",
         "features": {
             "basic": true,
