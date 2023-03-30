@@ -1643,23 +1643,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/mgodave/barge",
-        "name": "barge",
-        "authors": [
-            {
-                "name": "Dave Rusek",
-                "twitter": "davidjrusek"
-            }
-        ],
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": false,
-            "logCompaction": false
-        }
-    },
-    {
         "repoURL": "https://github.com/mind1949/raft",
         "name": "mind1949/raft",
         "authors": [
