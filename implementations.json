@@ -783,8 +783,8 @@
         }
     },
     {
-        "repoURL": "https://github.com/coreos/etcd",
-        "name": "etcd/raft",
+        "repoURL": "https://github.com/etcd-io/raft",
+        "name": "etcd-io/raft",
         "authors": [
             {
                 "name": "Blake Mizerany"
