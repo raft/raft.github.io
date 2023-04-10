@@ -783,29 +783,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/etcd-io/raft",
-        "name": "etcd-io/raft",
-        "authors": [
-            {
-                "name": "Blake Mizerany"
-            },
-            {
-                "name": "Xiang Li"
-            },
-            {
-                "name": "Yicheng Qin"
-            }
-        ],
-        "language": "Go",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/dannycoates/raft-core",
         "name": "dannycoates/raft-core",
         "authors": [
@@ -1139,6 +1116,29 @@
             "basic": false,
             "membershipChanges": false,
             "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/etcd-io/raft",
+        "name": "etcd-io/raft",
+        "authors": [
+            {
+                "name": "Blake Mizerany"
+            },
+            {
+                "name": "Xiang Li"
+            },
+            {
+                "name": "Yicheng Qin"
+            }
+        ],
+        "language": "Go",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
         }
     },
     {
