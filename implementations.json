@@ -1344,6 +1344,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/hkarim/trabica",
+        "name": "Trabica",
+        "authors": [
+            {
+                "name": "Hossam Karim",
+                "github": "hkarim"
+            }
+        ],
+        "language": "Scala",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/huntlabs/hunt-raft",
         "name": "huntlabs/hunt-raft",
         "authors": [
