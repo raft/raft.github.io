@@ -2702,5 +2702,23 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/iifawzi/tf-raft",
+        "name": "tf-Raft",
+        "authors": [
+            {
+                "name": "Fawzi Abdulfattah",
+                "github": "iifawzi"
+            }
+        ],
+        "language": "typescript",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": true
+        }
     }
 ]
