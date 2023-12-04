@@ -1396,6 +1396,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/iifawzi/tf-raft",
+        "name": "tf-Raft",
+        "authors": [
+            {
+                "name": "Fawzi Abdulfattah",
+                "github": "iifawzi"
+            }
+        ],
+        "language": "TypeScript",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/jalvaro/raft",
         "name": "jalvaro/raft",
         "authors": [
