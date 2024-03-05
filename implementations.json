@@ -2091,6 +2091,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/resetius/miniraft-cpp",
+        "name": "miniraft-cpp",
+        "authors": [
+            {
+                "name": "Aleksei Ozeritskii",
+                "github": "resetius"
+            }
+        ],
+        "language": "C++",
+        "license": "BSD",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
         "repoURL": "https://github.com/rethinkdb/rethinkdb",
         "name": "RethinkDB",
         "language": "C++",
