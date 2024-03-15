@@ -689,24 +689,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/canonical/raft",
-        "name": "canonical/raft",
-        "authors": [
-            {
-                "name": "Free Ekanayaka",
-                "github": "freeekanayaka"
-            }
-        ],
-        "language": "C",
-        "license": "LGPL-3.0 Linking Exception",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/cb372/raft",
         "name": "cb372/raft",
         "authors": [
@@ -775,6 +757,24 @@
         ],
         "language": "Java",
         "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
+        "repoURL": "https://github.com/cowsql/raft",
+        "name": "cowsql/raft",
+        "authors": [
+            {
+                "name": "Free Ekanayaka",
+                "github": "freeekanayaka"
+            }
+        ],
+        "language": "C",
+        "license": "LGPL-3.0 Linking Exception",
         "features": {
             "basic": true,
             "membershipChanges": true,
