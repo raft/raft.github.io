@@ -1783,6 +1783,23 @@
         }
     },
     {
+        "repoURL": "https://github.com/nicehoplite/GlucoRAFT",
+        "name": "GlucoRAFT",
+        "authors": [
+            {
+                "name": "Shreyas",
+                "github": "nicehoplite"
+            }
+        ],
+        "language": "Python",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": false
+        }
+    },
+    {
         "repoURL": "https://github.com/noeleo/raft",
         "name": "noeleo/raft",
         "authors": [
