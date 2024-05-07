@@ -129,6 +129,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/LiangrunDa/raft-lite",
+        "name": "Raft Lite",
+        "authors": [
+            {
+                "name": "Liangrun Da",
+                "github": "LiangrunDa"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/MicroRaft/MicroRaft",
         "name": "MicroRaft",
         "authors": [
