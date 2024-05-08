@@ -12,6 +12,7 @@ from urllib.request import urlopen, Request
 
 """
 Possibly interesting fields:
+- archived
 - created_at
 - description
 - forks_count
@@ -101,7 +102,8 @@ def main(filename='repos.jsonp'):
     json.dump(dict([(url,
                      {'rank': repo['rank'],
                       'stars': repo['stargazers_count'],
-                      'updated': repo['updated_at']})
+                      'updated': repo['updated_at'],
+                      'archived': repo['archived']})
                      for (url, repo) in repos]),
               f,
               indent=4)
