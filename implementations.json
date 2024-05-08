@@ -281,23 +281,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/adi/raft.ts",
-        "name": "raft.ts",
-        "authors": [
-            {
-                "name": "Adrian Punga",
-                "github": "adi"
-            }
-        ],
-        "language": "TypeScript",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": false,
-            "membershipChanges": false,
-            "logCompaction": false
-        }
-    },
-    {
         "repoURL": "https://github.com/adsharma/raft",
         "name": "python3-raft",
         "authors": [
@@ -736,22 +719,6 @@
         "license": "MIT",
         "features": {
             "basic": false,
-            "membershipChanges": false,
-            "logCompaction": false
-        }
-    },
-    {
-        "repoURL": "https://github.com/chicm/CmRaft",
-        "name": "chicm/CmRaft",
-        "authors": [
-            {
-                "name": "Cheng Min Chi"
-            }
-        ],
-        "language": "Java",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
             "membershipChanges": false,
             "logCompaction": false
         }
@@ -1979,24 +1946,6 @@
         }
     },
     {
-        "repoURL": "https://github.com/pi-plan/praft",
-        "name": "PRaft",
-        "authors": [
-            {
-                "name": "Buqing Ma",
-                "github": "laomafeima"
-            }
-        ],
-        "language": "Python",
-        "license": "BSD",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/pingcap/tikv",
         "name": "TiKV",
         "authors": [
@@ -2153,22 +2102,6 @@
             "membershipChanges": true,
             "logCompaction": true,
             "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/rodriguezvalencia/rafting",
-        "name": "rodriguezvalencia/rafting",
-        "authors": [
-            {
-                "name": "Sergio Rodriguez"
-            }
-        ],
-        "language": "Clojure",
-        "license": "MIT",
-        "features": {
-            "basic": false,
-            "membershipChanges": false,
-            "logCompaction": false
         }
     },
     {
