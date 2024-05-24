@@ -2706,5 +2706,23 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/zwkno1/raftpp",
+        "name": "raftpp",
+        "authors": [
+            {
+                "name": "zwk",
+                "github": "zwkno1"
+            }
+        ],
+        "language": "C++",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
     }
 ]
