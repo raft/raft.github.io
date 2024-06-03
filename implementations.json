@@ -2333,6 +2333,28 @@
         }
     },
     {
+        "repoURL": "https://github.com/tarantool/tarantool",
+        "name": "Tarantool",
+        "authors": [
+            {
+                "name": "Vladislav Shpilevoy",
+                "github": "Gerold103"
+            },
+            {
+                "name": "Sergey Petrenko",
+                "github": "sergepetrenko"
+            }
+        ],
+        "language": "C",
+        "license": "BSD 2-Clause",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/tetrapods/raft",
         "name": "tetrapods/raft",
         "authors": [
@@ -2718,28 +2740,6 @@
         ],
         "language": "C++",
         "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/tarantool/tarantool",
-        "name": "Tarantool",
-        "authors": [
-            {
-                "name": "Vladislav Shpilevoy",
-                "github": "Gerold103"
-            },
-            {
-                "name": "Sergey Petrenko",
-                "github": "sergepetrenko"
-            }
-        ],
-        "language": "C",
-        "license": "BSD 2-Clause",
         "features": {
             "basic": true,
             "membershipChanges": true,
