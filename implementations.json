@@ -129,6 +129,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/LVala/zaft",
+        "name": "zaft",
+        "authors": [
+            {
+                "name": "Lukasz Wala",
+                "github": "LVala"
+            }
+        ],
+        "language": "Zig",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/LiangrunDa/raft-lite",
         "name": "Raft Lite",
         "authors": [
