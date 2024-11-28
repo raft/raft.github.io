@@ -2782,5 +2782,27 @@
             "logCompaction": true,
             "persistence": true
         }
+    },
+    {
+        "repoURL": "https://github.com/TEAM-paxos/RaftChat",
+        "name": "RaftChat",
+        "authors": [
+            {
+                "name": "SoonWon Moon",
+                "github": "https://github.com/damhiya"
+            },
+            {
+                "name": "Bumsung Baek",
+                "github" : "https://github.com/highcloud100"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
     }
 ]
