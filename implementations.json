@@ -264,6 +264,28 @@
         }
     },
     {
+        "repoURL": "https://github.com/TEAM-paxos/RaftChat",
+        "name": "RaftChat",
+        "authors": [
+            {
+                "name": "SoonWon Moon",
+                "github": "damhiya"
+            },
+            {
+                "name": "Bumsung Baek",
+                "github": "highcloud100"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
         "repoURL": "https://github.com/Waqee/Raft-php",
         "name": "Raft-php",
         "authors": [
