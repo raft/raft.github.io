@@ -2593,6 +2593,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/yibuma/pyraft",
+        "name": "PyRaft",
+        "authors": [
+            {
+                "name": "Yibu Ma",
+                "github": "yibuma"
+            }
+        ],
+        "language": "Python",
+        "license": "BSD-3-Clause",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/vesoft-inc/nebula",
         "name": "nebula-graph-storage",
         "authors": [
