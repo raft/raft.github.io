@@ -2147,7 +2147,7 @@
             "basic": true,
             "membershipChanges": false,
             "logCompaction": false,
-            "persistence": false
+            "persistence": true
         }
     },
     {
