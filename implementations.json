@@ -303,6 +303,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/WhatsApp/waraft",
+        "name": "waraft",
+        "authors": [
+            {
+                "name": "WhatsApp",
+                "github": "whatsapp"
+            }
+        ],
+        "language": "Erlang",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/aaronp/riff",
         "name": "Riff",
         "authors": [
@@ -2815,24 +2833,6 @@
             }
         ],
         "language": "C++",
-        "license": "Apache-2.0",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
-        "repoURL": "https://github.com/WhatsApp/waraft",
-        "name": "waraft",
-        "authors": [
-            {
-                "name": "WhatsApp",
-                "github": "whatsapp"
-            }
-        ],
-        "language": "Erlang",
         "license": "Apache-2.0",
         "features": {
             "basic": true,
