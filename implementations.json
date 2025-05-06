@@ -1253,6 +1253,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/gc-garcol/cafe-raft",
+        "name": "cafe-raft",
+        "authors": [
+            {
+                "name": "Thai Van",
+                "github": "gc-garcol"
+            }
+        ],
+        "language": "Java",
+        "license": "Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/goraft/raft",
         "name": "go-raft",
         "authors": [
