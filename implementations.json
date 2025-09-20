@@ -1271,6 +1271,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/glycerine/rpc25519/tree/master/tube",
+        "name": "Tube",
+        "authors": [
+            {
+                "name": "Jason E. Aten, Ph.D.",
+                "github": "glycerine"
+            }
+        ],
+        "language": "Go",
+        "license": "BSD-3-Clause",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/goraft/raft",
         "name": "go-raft",
         "authors": [

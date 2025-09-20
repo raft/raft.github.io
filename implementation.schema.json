@@ -8,7 +8,7 @@
         "repoURL": {
             "description": "URL pointing to base GitHub repo.",
             "type": "string",
-            "pattern": "^https://github.com/([^/]+)/([^/]+)(?<!.git)$",
+            "pattern": "^https://github.com/([^/]+)/([^/]+)[a-zA-Z0-9/]{0,20}(?<!.git)$",
             "format": "uri"
         },
         "directory": {
