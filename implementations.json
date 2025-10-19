@@ -35,6 +35,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/EddieJ03/go-raft",
+        "name": "goraft",
+        "authors": [
+            {
+                "name": "Edward Jin, Henry Lin, Dhylan Patel",
+                "github": "EddieJ03"
+            }
+        ],
+        "language": "Go",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/EdoardoV97/Raft-Omnet",
         "name": "Raft-Omnet",
         "authors": [
