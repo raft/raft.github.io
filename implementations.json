@@ -989,7 +989,7 @@
     },
     {
         "repoURL": "https://github.com/dotnet/dotNext",
-        "directory": "src/cluster/",
+        "directory": "src/cluster",
         "name": ".NEXT Raft",
         "authors": [
             {
@@ -1271,7 +1271,8 @@
         }
     },
     {
-        "repoURL": "https://github.com/glycerine/rpc25519/tree/master/tube",
+        "repoURL": "https://github.com/glycerine/rpc25519",
+        "directory": "tube",
         "name": "Tube",
         "authors": [
             {
@@ -1384,7 +1385,7 @@
     },
     {
         "repoURL": "https://github.com/hazelcast/hazelcast",
-        "directory": "hazelcast/src/main/java/com/hazelcast/cp/internal/raft/",
+        "directory": "hazelcast/src/main/java/com/hazelcast/cp/internal/raft",
         "name": "hazelcast-raft",
         "authors": [
             {
@@ -2006,7 +2007,7 @@
     },
     {
         "repoURL": "https://github.com/permazen/permazen",
-        "directory": "permazen/permazen-kv-raft/",
+        "directory": "permazen-kv-raft",
         "name": "Permazen/RaftKVDatabase",
         "authors": [
             {

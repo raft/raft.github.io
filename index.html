@@ -31,7 +31,18 @@ $(function() {
       row.append($('<td>').text(stars));
 
       const name = $('<td>');
-      name.append($('<a>').attr('href', impl.repoURL).text(impl.name));
+      let url = impl.repoURL;
+      if (impl.branch) {
+        url += '/tree/' + impl.branch;
+        if (impl.directory) {
+          url += '/' + impl.directory;
+        }
+      } else {
+        if (impl.directory) {
+          url += '/tree/HEAD/' + impl.directory;
+        }
+      }
+      name.append($('<a>').attr('href', url).text(impl.name));
       if (impl.archived === true) {
         name.append(' (archived)');
       }
