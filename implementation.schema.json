@@ -11,10 +11,15 @@
             "pattern": "^https://github.com/([^/]+)/([^/]+)(?<!.git)$",
             "format": "uri"
         },
+        "branch": {
+            "description": "Optional branch within Git repo.",
+            "type": "string",
+            "pattern": "^.+$"
+        },
         "directory": {
             "description": "Optional path within Git repo where the Raft implementation is located.",
             "type": "string",
-            "pattern": "^[^/].*/$"
+            "pattern": "^[^/].*[^/]$"
         },
         "name": {
             "description": "Implementation project name. If the project is referred to as 'Raft', disambiguate it.",
