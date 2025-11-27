@@ -732,6 +732,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/burdzwastaken/raftz",
+        "name": "raftz",
+        "authors": [
+            {
+                "name": "Matt Burdan",
+                "github": "burdzwastaken"
+            }
+        ],
+        "language": "Zig",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
+        }
+    },
+    {
         "repoURL": "https://github.com/burma-shave/chelan",
         "name": "chelan",
         "authors": [
