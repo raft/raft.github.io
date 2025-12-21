@@ -1548,6 +1548,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/irapuan/raft_on_microbit",
+        "name": "irapuan/raft_on_microbit",
+        "authors": [
+            {
+                "name": "Irapuan Bottosso",
+                "github": "irapuan"
+            }
+        ],
+        "language": "MicroPython",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": false
+        }
+    },
+    {
         "repoURL": "https://github.com/jalvaro/raft",
         "name": "jalvaro/raft",
         "authors": [
