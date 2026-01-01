@@ -18,6 +18,21 @@
         }
     },
     {
+  "repo": "https://github.com/salahayoub/anchor",
+  "name": "Anchor",
+  "authors": ["Salah Allag"],
+  "language": "Go",
+  "license": "MIT",
+  "description": "Clean, pedagogical Raft implementation with gRPC transport, dynamic cluster membership, snapshotting, HTTP key-value API, and live TUI dashboard.",
+  "features": {
+    "leader_election": true,
+    "log_replication": true,
+    "persistence": true,
+    "membership_changes": true,
+    "log_compaction": true
+  }
+},
+    {
         "repoURL": "https://github.com/AChepurnoi/raft-kotlin",
         "name": "raft-kotlin",
         "authors": [
