@@ -1,23 +1,5 @@
 [
     {
-        "repoURL": "https://github.com/salahayoub/anchor",
-        "name": "Anchor",
-        "authors": [
-            {
-                "name": "Salah Allag",
-                "github": "salahayoub"
-            }
-        ],
-        "language": "Go",
-        "license": "MIT",
-        "features": {
-            "basic": true,
-            "membershipChanges": true,
-            "logCompaction": true,
-            "persistence": true
-        }
-    },
-    {
         "repoURL": "https://github.com/42dot/foros",
         "name": "foros",
         "authors": [
@@ -2339,6 +2321,24 @@
             "basic": false,
             "membershipChanges": false,
             "logCompaction": false
+        }
+    },
+    {
+        "repoURL": "https://github.com/salahayoub/anchor",
+        "name": "Anchor",
+        "authors": [
+            {
+                "name": "Salah Allag",
+                "github": "salahayoub"
+            }
+        ],
+        "language": "Go",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true,
+            "persistence": true
         }
     },
     {
