@@ -1007,6 +1007,23 @@
         }
     },
     {
+        "repoURL": "https://github.com/kahunakv/kommander",
+        "name": "Kommander",
+        "authors": [
+            {
+                "name": "Andres Gutierrez",
+                "github": "andresgutierrez"
+            }
+        ],
+        "language": "C#",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "membershipChanges": true,
+            "logCompaction": true
+        }
+    },
+    {
         "repoURL": "https://github.com/devatwork/NRaft",
         "name": "NRaft",
         "authors": [
