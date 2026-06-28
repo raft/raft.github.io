@@ -1024,6 +1024,24 @@
         }
     },
     {
+        "repoURL": "https://github.com/docflex/Raft-Consensus",
+        "name": "Raft-Consensus",
+        "authors": [
+            {
+                "name": "Rehber Moin",
+                "github": "docflex"
+            }
+        ],
+        "language": "Java",
+        "license": "MIT",
+        "features": {
+            "basic": true,
+            "persistence": true,
+            "membershipChanges": true,
+            "logCompaction": true
+        }
+    },
+    {
         "repoURL": "https://github.com/dotnet/dotNext",
         "directory": "src/cluster",
         "name": ".NEXT Raft",
