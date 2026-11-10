@@ -2844,24 +2844,24 @@
             "persistence": true
         }
     },
-      {
-    "repoURL": "https://github.com/whispem/gatekv",
-    "name": "gatekv",
-    "authors": [
-      {
-        "name": "Emilie PERETTI",
-        "github": "whispem"
-      }
-    ],
-    "language": "Rust",
-    "license": "MIT OR Apache-2.0",
-    "features": {
-      "basic": true,
-      "membershipChanges": false,
-      "logCompaction": false,
-      "persistence": true
-    }
-  },
+    {
+        "repoURL": "https://github.com/whispem/gatekv",
+        "name": "gatekv",
+        "authors": [
+            {
+                "name": "Emilie PERETTI",
+                "github": "whispem"
+            }
+        ],
+        "language": "Rust",
+        "license": "MIT OR Apache-2.0",
+        "features": {
+            "basic": true,
+            "membershipChanges": false,
+            "logCompaction": false,
+            "persistence": true
+        }
+    },
     {
         "repoURL": "https://github.com/willemt/raft",
         "name": "willemt/raft",
